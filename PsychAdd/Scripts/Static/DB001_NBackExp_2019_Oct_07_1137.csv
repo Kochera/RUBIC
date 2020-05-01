@@ -1,0 +1,1168 @@
+repNum,blkInstr,stimImage,BlksLoop.thisRepN,BlksLoop.thisTrialN,BlksLoop.thisN,BlksLoop.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_12.keys,key_resp_12.rt,instrBlk0Start,instrBlk0End,instrBlk0Dur,TargetStart,TargetEnd,TargetDur,StimStart,StimEnd,StimDur,trialResp.keys,trialResp.rt,date,frameRate,expName,participant,
+,,,,,,,,,,,t,28.2284700871,,,,,,,,,,,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,0,0,0,,,28.2862250805,33.2890429497,5.00281786919,33.289055109,33.2897281647,0.000673055648804,33.2956020832,34.7940809727,1.49847888947,r,0.902806997299,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/basket1.png,0,0,0,0,0,1,1,1,,,,,,,,,34.7948429585,36.2816791534,1.48683619499,r,0.802762985229,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/crown2.png,0,0,0,0,0,2,2,2,,,,,,,,,36.2823791504,37.7697131634,1.48733401299,r,0.802764177322,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/horn2.png,0,0,0,0,0,3,3,3,,,,,,,,,37.7702729702,39.257735014,1.48746204376,r,0.802834033966,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/butterfly1.png,0,0,0,0,0,4,4,4,,,,,,,,,39.2583119869,40.7457461357,1.48743414879,r,0.903079032898,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,5,5,5,,,,,,,,,40.7462739944,42.2337720394,1.48749804497,g,0.769670963287,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/hat2.png,0,0,0,0,0,6,6,6,,,,,,,,,42.2342829704,43.7222061157,1.48792314529,r,0.836189985275,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/eggs2.png,0,0,0,0,0,7,7,7,,,,,,,,,43.7227799892,45.209815979,1.48703598976,r,0.869150161743,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/razor2.png,0,0,0,0,0,8,8,8,,,,,,,,,45.210337162,46.69860816,1.488270998,r,0.802757978439,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/mailbox1.png,0,0,0,0,0,9,9,9,,,,,,,,,46.6991381645,48.1858620644,1.48672389984,r,0.769676923752,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/hat1.png,0,0,0,0,0,10,10,10,,,,,,,,,48.1863739491,49.6738870144,1.48751306534,r,0.869570016861,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/canoe2.png,0,0,0,0,0,11,11,11,,,,,,,,,49.6744110584,51.1786310673,1.50422000885,r,0.802623033524,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,12,12,12,,,,,,,,,51.1791441441,52.6666531563,1.48750901222,g,0.76938700676,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/candle2.png,0,0,0,0,0,13,13,13,,,,,,,,,52.6671710014,54.1546859741,1.48751497269,r,0.76984000206,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/armchair2.png,0,0,0,0,0,14,14,14,,,,,,,,,54.1552660465,55.642701149,1.48743510246,r,0.802279949188,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/teapot2.png,0,0,0,0,0,15,15,15,,,,,,,,,55.6432390213,57.1311430931,1.48790407181,r,0.80277299881,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,16,16,16,,,,,,,,,57.1316590309,58.6187479496,1.48708891869,g,0.80241894722,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/sink1.png,0,0,0,0,0,17,17,17,,,,,,,,,58.6192800999,60.1240429878,1.50476288795,r,0.901423215866,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/fireplace1.png,0,0,0,0,0,18,18,18,,,,,,,,,60.1245601177,61.6115760803,1.4870159626,r,0.735836029053,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/coin1.png,0,0,0,0,0,19,19,19,,,,,,,,,61.6120891571,63.1000201702,1.48793101311,r,0.702377080917,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/brick1.png,0,0,0,0,0,20,20,20,,,,,,,,,63.1005320549,64.5874559879,1.48692393303,r,0.635577917099,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/button1.png,0,0,0,0,0,21,21,21,,,,,,,,,64.5879840851,66.0756530762,1.48766899109,r,0.668910980225,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lightbulb2.png,0,0,0,0,0,22,22,22,,,,,,,,,66.0761730671,67.5636911392,1.48751807213,r,0.769258975983,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/umbrella1.png,0,0,0,0,0,23,23,23,,,,,,,,,67.5642790794,69.0517010689,1.48742198944,r,0.768836021423,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,24,24,24,,,,,,,,,69.0522310734,70.5402030945,1.4879720211,g,0.76886510849,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bongo1.png,0,0,0,0,0,25,25,25,,,,,,,,,70.5407211781,72.0281600952,1.48743891716,r,0.736231088638,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/shell1.png,0,0,0,0,0,26,26,26,,,,,,,,,72.0286710262,73.5157711506,1.48710012436,r,0.702451944351,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/envelope1.png,0,0,0,0,0,27,27,27,,,,,,,,,73.5162940025,75.020827055,1.50453305244,r,0.768743991852,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/fan1.png,0,0,0,0,0,28,28,28,,,,,,,,,75.0213489532,76.5085351467,1.48718619347,r,0.702789068222,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/cat1.png,0,0,0,0,0,29,29,29,,,,,,,,,76.5090470314,77.996972084,1.48792505264,r,0.502029895782,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,30,30,30,,,,,,,,,77.9974930286,79.4850661755,1.48757314682,g,0.736321926117,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,31,31,31,,,,,,,,,79.4855821133,80.9725379944,1.48695588112,g,0.668820142746,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/suitcase2.png,0,0,0,0,0,32,32,32,,,,,,,,,80.9730660915,82.4606261253,1.4875600338,r,0.53511095047,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lightbulb1.png,0,0,0,0,0,33,33,33,,,,,,,,,82.4611289501,83.9657850266,1.50465607643,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,34,34,34,,,,,,,,,83.9661920071,85.4533250332,1.48713302612,g,0.669282913208,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/armchair1.png,0,0,0,0,0,35,35,35,,,,,,,,,85.4538400173,86.9420480728,1.4882080555,r,0.637054920197,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/fan2.png,0,0,0,0,0,36,36,36,,,,,,,,,86.9425461292,88.4293711185,1.48682498932,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/dog1.png,0,0,0,0,0,37,37,37,,,,,,,,,88.4297850132,89.9178099632,1.48802495003,r,0.802691936493,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/suitcase1.png,0,0,0,0,0,38,38,38,,,,,,,,,89.9183220863,91.4058310986,1.48750901222,r,0.636001825333,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,39,39,39,,,,,,,,,91.4063391685,92.8934390545,1.48709988594,g,0.735878944397,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/skillet2.png,0,0,0,0,0,40,40,40,,,,,,,,,92.8939580917,94.3998820782,1.50592398643,r,0.671058177948,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/card1.png,0,0,0,0,0,41,41,41,,,,,,,,,94.4003920555,95.8864820004,1.48608994484,r,0.635981082916,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/card2.png,0,0,0,0,0,42,42,42,,,,,,,,,95.8869991302,97.375921011,1.48892188072,r,0.80390381813,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/rollerblade1.png,0,0,0,0,0,43,43,43,,,,,,,,,97.3764281273,98.8622570038,1.4858288765,r,0.768731117249,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/pail1.png,0,0,0,0,0,44,44,44,,,,,,,,,98.8628129959,100.350278139,1.4874651432,r,0.735816001892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,45,45,45,,,,,,,,,100.35080409,101.838374138,1.48757004738,g,0.702866792679,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/icecreamcone2.png,0,0,0,0,0,46,46,46,,,,,,,,,101.838895082,103.326807022,1.48791193962,r,0.702516078949,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/teapot1.png,0,0,0,0,0,47,47,47,,,,,,,,,103.327336073,104.814762115,1.48742604256,r,0.668866872787,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/crown1.png,0,0,0,0,0,48,48,48,,,,,,,,,104.81528616,106.302371979,1.48708581924,r,0.869157075882,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/mirror2.png,0,0,0,0,0,49,49,49,,,,,,,,,106.30289197,107.807121038,1.50422906876,r,0.668455123901,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,50,50,50,,,,,,,,,107.807650089,109.295617104,1.48796701431,g,0.735816001892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/broom2.png,0,0,0,0,0,51,51,51,,,,,,,,,109.296132088,110.783167124,1.48703503609,r,0.702031135559,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/rollerblade2.png,0,0,0,0,0,52,52,52,,,,,,,,,110.783677101,112.271193027,1.48751592636,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bongo2.png,0,0,0,0,0,53,53,53,,,,,,,,,112.271639109,113.759212017,1.4875729084,r,0.869707107544,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/smallbird1.png,0,0,0,0,0,54,54,54,,,,,,,,,113.760759115,115.247298956,1.4865398407,r,0.735814809799,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/compmouse1.png,0,0,0,0,0,55,55,55,,,,,,,,,115.247812986,116.735738993,1.48792600632,r,0.635982036591,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/rose1.png,0,0,0,0,0,56,56,56,,,,,,,,,116.736255169,118.223276138,1.48702096939,r,0.635154008865,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/razor1.png,0,0,0,0,0,57,57,57,,,,,,,,,118.223798037,119.711300135,1.48750209808,r,0.736168861389,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/phone1.png,0,0,0,0,0,58,58,58,,,,,,,,,119.711819172,121.199325085,1.48750591278,r,0.635498046875,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,59,59,59,,,,,,,,,121.199841022,122.687355042,1.48751401901,g,0.70122885704,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/rose2.png,0,0,0,0,0,60,60,60,,,,,,,,,122.687867165,124.175323009,1.48745584488,r,0.735831022263,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/dog2.png,0,0,0,0,0,61,61,61,,,,,,,,,124.175843954,125.664162159,1.48831820488,g,0.769332885742,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/compmouse2.png,0,0,0,0,0,62,62,62,,,,,,,,,125.664683104,127.15152812,1.48684501648,r,0.602067232132,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lobster2.png,0,0,0,0,0,63,63,63,,,,,,,,,127.152055025,128.640697956,1.48864293098,r,0.60259103775,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,64,64,64,,,,,,,,,128.641282082,130.12746501,1.48618292809,g,0.669147014618,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/horn1.png,0,0,0,0,0,65,65,65,,,,,,,,,130.127987146,131.615488052,1.48750090599,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/icecreamcone1.png,0,0,0,0,0,66,66,66,,,,,,,,,131.6159091,133.103944063,1.48803496361,r,0.502439975739,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/coin2.png,0,0,0,0,0,67,67,67,,,,,,,,,133.104464054,134.592019081,1.48755502701,r,0.534697055817,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/sandwich1.png,0,0,0,0,0,68,68,68,,,,,,,,,134.592539072,136.079624176,1.48708510399,r,0.568207025528,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/brick2.png,0,0,0,0,0,69,69,69,,,,,,,,,136.080155134,137.56765008,1.48749494553,r,0.66973900795,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/cat2.png,0,0,0,0,0,70,70,70,,,,,,,,,137.568166018,139.055745125,1.48757910728,r,0.735816955566,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,71,71,71,,,,,,,,,139.056262016,140.544111967,1.48784995079,g,0.635921001434,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/pail2.png,0,0,0,0,0,72,72,72,,,,,,,,,140.544631958,142.031597137,1.48696517944,r,0.569105863571,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow2.png,0,0,0,0,0,73,73,73,,,,,,,,,142.032124043,143.519752026,1.48762798309,r,0.836133003235,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/phone2.png,0,0,0,0,0,74,74,74,,,,,,,,,143.520272017,145.007770061,1.48749804497,r,0.669420957565,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lobster1.png,0,0,0,0,0,75,75,75,,,,,,,,,145.008289099,146.495790958,1.48750185966,g,0.735826969147,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/eggs1.png,0,0,0,0,0,76,76,76,,,,,,,,,146.496304989,147.983814955,1.4875099659,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/candle1.png,0,0,0,0,0,77,77,77,,,,,,,,,147.984228134,149.471841097,1.48761296272,r,0.836134910583,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/umbrella2.png,0,0,0,0,0,78,78,78,,,,,,,,,149.472367048,150.960206985,1.48783993721,r,0.869588136673,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/shoe1.png,0,0,0,0,0,79,79,79,,,,,,,,,150.960724115,152.44781518,1.48709106445,r,0.701892852783,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/sandwich2.png,0,0,0,0,0,80,80,80,,,,,,,,,152.448328972,153.936395168,1.48806619644,r,0.535116910934,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/shoe2.png,0,0,0,0,0,81,81,81,,,,,,,,,154.006489992,155.490741014,1.48425102234,r,0.501816987991,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/broom1.png,0,0,0,0,0,82,82,82,,,,,,,,,155.491286039,156.97876215,1.48747611046,r,0.602474927902,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/apple2.png,0,0,0,0,0,83,83,83,,,,,,,,,156.979282141,158.4667871,1.48750495911,r,0.669006109238,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/butterfly2.png,0,0,0,0,0,84,84,84,,,,,,,,,158.467308998,159.955224037,1.48791503906,r,0.668836116791,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/envelope2.png,0,0,0,0,0,85,85,85,,,,,,,,,159.955738068,161.442832947,1.48709487915,r,0.702032089233,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/pottedplant2.png,0,0,0,0,0,86,86,86,,,,,,,,,161.443361044,162.931341171,1.48798012733,r,0.60213303566,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/mirror1.png,0,0,0,0,0,87,87,87,,,,,,,,,162.931857109,164.418879032,1.48702192307,r,0.769394874573,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/smallbird2.png,0,0,0,0,0,88,88,88,,,,,,,,,164.419412136,165.924175024,1.50476288795,g,0.903150081635,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,89,89,89,,,,,,,,,165.924684048,167.412131071,1.48744702339,g,0.668456077576,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/iris2.png,0,0,0,0,0,90,90,90,,,,,,,,,167.412642002,168.899741173,1.48709917068,r,0.736165046692,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/pottedplant1.png,0,0,0,0,0,91,91,91,,,,,,,,,168.900264978,170.387763023,1.48749804497,r,0.769258022308,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/sink2.png,0,0,0,0,0,92,92,92,,,,,,,,,170.388275146,171.875648022,1.48737287521,r,0.836133003235,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/canoe1.png,0,0,0,0,0,93,93,93,,,,,,,,,171.876173019,173.380530119,1.50435709953,g,0.869526863098,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/bow1.png,0,0,0,0,0,94,94,94,,,,,,,,,173.381049156,174.868555069,1.48750591278,g,0.702408075333,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lamp1.png,0,0,0,0,0,95,95,95,,,,,,,,,174.869065046,176.373711109,1.50464606285,r,0.669011116028,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/mailbox2.png,0,0,0,0,0,96,96,96,,,,,,,,,176.374226093,177.861317158,1.48709106445,r,0.568552017212,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/fireplace2.png,0,0,0,0,0,97,97,97,,,,,,,,,177.861829996,179.349647045,1.48781704903,r,0.668869018555,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/iris1.png,0,0,0,0,0,98,98,98,,,,,,,,,179.350156069,180.837366104,1.48721003532,r,0.568623065948,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/button2.png,0,0,0,0,0,99,99,99,,,,,,,,,180.837875128,182.325803995,1.48792886734,r,0.501675128937,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/basket2.png,0,0,0,0,0,100,100,100,,,,,,,,,182.326313972,183.813826084,1.48751211166,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/skillet1.png,0,0,0,0,0,101,101,101,,,,,,,,,183.814236164,185.301781178,1.48754501343,g,0.702337026596,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/apple1.png,0,0,0,0,0,102,102,102,,,,,,,,,185.302287102,186.789390087,1.48710298538,r,0.902595043182,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/lamp2.png,0,0,0,0,0,103,103,103,,,,,,,,,186.789905071,188.277425051,1.48751997948,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",FinalStim/shell2.png,0,0,0,0,0,104,104,104,,,,,,,,,188.277889967,189.765436172,1.48754620552,r,0.736227989197,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+0,"Please press the right button whenever you see the 
+first image repeated and the left button otherwise.",,0,0,0,0,,,,,,,,,,,,,,,,,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/compmouse1.png,0,1,1,1,0,0,0,0,,,189.766081095,194.765032053,4.99895095825,194.765038013,194.765653133,0.000615119934082,194.771515131,196.252688169,1.48117303848,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/broom1.png,0,1,1,1,0,1,1,1,,,,,,,,,196.253216028,197.74064517,1.487429142,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/compmouse1.png,0,1,1,1,0,2,2,2,,,,,,,,,197.741052151,199.245388031,1.50433588028,g,0.835717916489,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/iris1.png,0,1,1,1,0,3,3,3,,,,,,,,,199.245942116,200.733824968,1.48788285255,r,0.83610701561,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/canoe1.png,0,1,1,1,0,4,4,4,,,,,,,,,200.734341145,202.221240997,1.48689985275,r,0.768773078918,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/candle2.png,0,1,1,1,0,5,5,5,,,,,,,,,202.221758127,203.726104975,1.50434684753,r,0.86873793602,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/icecreamcone1.png,0,1,1,1,0,6,6,6,,,,,,,,,203.726624966,205.214132071,1.48750710487,r,0.86957192421,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/shell1.png,0,1,1,1,0,7,7,7,,,,,,,,,205.214655161,206.702152967,1.48749780655,r,0.903492927551,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/teapot2.png,0,1,1,1,0,8,8,8,,,,,,,,,206.70267415,208.190212965,1.48753881454,r,0.83654499054,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/phone2.png,0,1,1,1,0,9,9,9,,,,,,,,,208.190730095,209.678207159,1.48747706413,r,0.836544036865,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/basket2.png,0,1,1,1,0,10,10,10,,,,,,,,,209.678719997,211.166224003,1.48750400543,r,0.83654499054,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/phone2.png,0,1,1,1,0,11,11,11,,,,,,,,,211.16674304,212.65597105,1.48922801018,r,0.903141975403,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/mailbox2.png,0,1,1,1,0,12,12,12,,,,,,,,,212.656502962,214.142271996,1.48576903343,r,0.801484823227,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/button2.png,0,1,1,1,0,13,13,13,,,,,,,,,214.142799139,215.630295992,1.48749685287,r,0.769259929657,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/mailbox2.png,0,1,1,1,0,14,14,14,,,,,,,,,215.630810976,217.118508101,1.48769712448,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/button1.png,0,1,1,1,0,15,15,15,,,,,,,,,217.118914127,218.606755972,1.48784184456,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/apple2.png,0,1,1,1,0,16,16,16,,,,,,,,,218.607177973,220.094779015,1.48760104179,r,0.735816001892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/button1.png,0,1,1,1,0,17,17,17,,,,,,,,,220.095347166,221.583328009,1.48798084259,g,0.836184978485,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/basket1.png,0,1,1,1,0,18,18,18,,,,,,,,,221.583973169,223.070827007,1.48685383797,r,0.668522834778,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/sink2.png,0,1,1,1,0,19,19,19,,,,,,,,,223.071356058,224.558849096,1.48749303818,r,0.7357878685,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/horn2.png,0,1,1,1,0,20,20,20,,,,,,,,,224.559376955,226.046622992,1.48724603653,r,0.869642019272,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/sink2.png,0,1,1,1,0,21,21,21,,,,,,,,,226.047148943,227.534482956,1.48733401299,g,0.736143112183,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/envelope1.png,0,1,1,1,0,22,22,22,,,,,,,,,227.535000086,229.039225101,1.50422501564,r,0.769252061844,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/pail2.png,0,1,1,1,0,23,23,23,,,,,,,,,229.039740086,230.527336121,1.487596035,r,0.702449083328,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/fan1.png,0,1,1,1,0,24,24,24,,,,,,,,,230.527842999,232.015275955,1.4874329567,r,0.702446222305,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/sink1.png,0,1,1,1,0,25,25,25,,,,,,,,,232.015797138,233.520342112,1.50454497337,r,0.80283498764,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/razor1.png,0,1,1,1,0,26,26,26,,,,,,,,,233.52086401,235.008635998,1.48777198792,r,0.769254207611,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lobster1.png,0,1,1,1,0,27,27,27,,,,,,,,,235.009147167,236.496134043,1.48698687553,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/coin1.png,0,1,1,1,0,28,28,28,,,,,,,,,236.496554136,237.984503031,1.4879488945,r,0.735811948776,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/crown2.png,0,1,1,1,0,29,29,29,,,,,,,,,237.985032082,239.472269058,1.48723697662,r,0.77005815506,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/eggs2.png,0,1,1,1,0,30,30,30,,,,,,,,,239.472784042,240.960549116,1.48776507378,r,0.736536979675,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lightbulb2.png,0,1,1,1,0,31,31,31,,,,,,,,,240.961068153,242.448642015,1.48757386208,r,0.735397100449,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/butterfly2.png,0,1,1,1,0,32,32,32,,,,,,,,,242.449161053,243.936664104,1.48750305176,r,0.468308925629,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/razor2.png,0,1,1,1,0,33,33,33,,,,,,,,,243.937178135,245.424689054,1.48751091957,r,0.70189499855,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/shoe1.png,0,1,1,1,0,34,34,34,,,,,,,,,245.425209045,246.913205147,1.48799610138,r,0.769856929779,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/candle1.png,0,1,1,1,0,35,35,35,,,,,,,,,246.913719177,248.400407076,1.48668789864,r,0.534049987793,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/icecreamcone2.png,0,1,1,1,0,36,36,36,,,,,,,,,248.400978088,249.888347149,1.48736906052,r,0.434380054474,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/suitcase2.png,0,1,1,1,0,37,37,37,,,,,,,,,249.888880968,251.376373053,1.4874920845,r,0.301811933517,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/apple1.png,0,1,1,1,0,38,38,38,,,,,,,,,251.376911163,252.864460945,1.4875497818,r,0.335033893585,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/suitcase2.png,0,1,1,1,0,39,39,39,,,,,,,,,252.864987135,254.352527142,1.48754000664,r,0.401033878326,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/armchair2.png,0,1,1,1,0,40,40,40,,,,,,,,,254.353050947,255.84050703,1.4874560833,r,0.434371948242,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/cat1.png,0,1,1,1,0,41,41,41,,,,,,,,,255.841026068,257.328533173,1.48750710487,r,0.669017076492,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lamp2.png,0,1,1,1,0,42,42,42,,,,,,,,,257.329054117,258.816555023,1.48750090599,r,0.668934822083,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/cat1.png,0,1,1,1,0,43,43,43,,,,,,,,,258.817080021,260.304515123,1.48743510246,g,0.869564056396,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/card1.png,0,1,1,1,0,44,44,44,,,,,,,,,260.305026054,261.792535067,1.48750901222,r,0.702788114548,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/hat2.png,0,1,1,1,0,45,45,45,,,,,,,,,261.793043137,263.28056097,1.48751783371,r,0.735821962357,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/card1.png,0,1,1,1,0,46,46,46,,,,,,,,,263.281074047,264.768650055,1.48757600784,g,0.769598960876,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/suitcase1.png,0,1,1,1,0,47,47,47,,,,,,,,,264.769173145,266.258162975,1.48898983002,r,0.536672115326,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/sandwich2.png,0,1,1,1,0,48,48,48,,,,,,,,,266.258677959,267.744698048,1.4860200882,r,0.568619966507,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/horn1.png,0,1,1,1,0,49,49,49,,,,,,,,,267.745219946,269.23183012,1.48661017418,r,0.801925897598,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/brick2.png,0,1,1,1,0,50,50,50,,,,,,,,,269.232392073,270.737809181,1.50541710854,r,0.535462856293,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/pail1.png,0,1,1,1,0,51,51,51,,,,,,,,,270.738327026,272.225834131,1.48750710487,r,0.668867826462,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/brick2.png,0,1,1,1,0,52,52,52,,,,,,,,,272.226366043,273.713451147,1.48708510399,g,0.903008937836,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/bongo1.png,0,1,1,1,0,53,53,53,,,,,,,,,273.713973999,275.218532085,1.5045580864,r,0.702022075653,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/pail1.png,0,1,1,1,0,54,54,54,,,,,,,,,275.21904397,276.706552982,1.48750901222,r,0.768841981888,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/rollerblade1.png,0,1,1,1,0,55,55,55,,,,,,,,,276.707062006,278.194578171,1.48751616478,r,0.702647924423,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/smallbird2.png,0,1,1,1,0,56,56,56,,,,,,,,,278.195084095,279.682257175,1.48717308044,r,0.635154008865,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/compmouse2.png,0,1,1,1,0,57,57,57,,,,,,,,,279.682765007,281.170624018,1.4878590107,r,0.635141849518,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/iris2.png,0,1,1,1,0,58,58,58,,,,,,,,,281.171144962,282.658234119,1.4870891571,r,0.503436088562,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lightbulb1.png,0,1,1,1,0,59,59,59,,,,,,,,,282.658750057,284.163393021,1.50464296341,r,0.535597085953,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/umbrella1.png,0,1,1,1,0,60,60,60,,,,,,,,,284.163910151,285.65141511,1.48750495911,r,0.501822948456,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lobster2.png,0,1,1,1,0,61,61,61,,,,,,,,,285.651941061,287.13943696,1.4874958992,r,0.702162981033,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/smallbird1.png,0,1,1,1,0,62,62,62,,,,,,,,,287.139951944,288.627464056,1.48751211166,r,0.702229976654,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lobster2.png,0,1,1,1,0,63,63,63,,,,,,,,,288.627977133,290.115072012,1.48709487915,g,0.802762031555,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/mirror2.png,0,1,1,1,0,64,64,64,,,,,,,,,290.115605116,291.620299101,1.50469398499,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/pottedplant1.png,0,1,1,1,0,65,65,65,,,,,,,,,291.620720148,293.107757092,1.48703694344,r,0.668447971344,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/skillet2.png,0,1,1,1,0,66,66,66,,,,,,,,,293.108271122,294.61266017,1.50438904762,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/envelope2.png,0,1,1,1,0,67,67,67,,,,,,,,,294.613070011,296.117289066,1.50421905518,r,0.836123943329,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/bow2.png,0,1,1,1,0,68,68,68,,,,,,,,,296.11781311,297.605417967,1.48760485649,r,0.635500907898,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/envelope2.png,0,1,1,1,0,69,69,69,,,,,,,,,297.60593915,299.110090017,1.50415086746,g,0.769114017487,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/card2.png,0,1,1,1,0,70,70,70,,,,,,,,,299.110615969,300.598116159,1.48750019073,r,0.535672903061,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/bow2.png,0,1,1,1,0,71,71,71,,,,,,,,,300.598632097,302.086872101,1.48824000359,g,0.869570970535,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/skillet1.png,0,1,1,1,0,72,72,72,,,,,,,,,302.087484121,303.574228048,1.486743927,r,0.802765846252,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/sandwich1.png,0,1,1,1,0,73,73,73,,,,,,,,,303.574752092,305.062601089,1.48784899712,r,0.735814094543,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/armchair1.png,0,1,1,1,0,74,74,74,,,,,,,,,305.063126087,306.549536943,1.48641085625,r,0.702100992203,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/dog2.png,0,1,1,1,0,75,75,75,,,,,,,,,306.550060987,308.056594133,1.5065331459,r,0.804249048233,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/cat2.png,0,1,1,1,0,76,76,76,,,,,,,,,308.057147026,309.542978048,1.48583102226,r,0.735816001892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/butterfly1.png,0,1,1,1,0,77,77,77,,,,,,,,,309.543506145,311.031483173,1.48797702789,r,0.668241977692,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/broom2.png,0,1,1,1,0,78,78,78,,,,,,,,,311.031996012,312.519440174,1.48744416237,r,0.601719141006,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/crown1.png,0,1,1,1,0,79,79,79,,,,,,,,,312.519958973,314.007462025,1.48750305176,r,0.601716995239,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/teapot1.png,0,1,1,1,0,80,80,80,,,,,,,,,314.007987976,315.495072126,1.48708415031,r,0.669008016586,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/crown1.png,0,1,1,1,0,81,81,81,,,,,,,,,315.495601177,316.983052969,1.48745179176,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/fireplace1.png,0,1,1,1,0,82,82,82,,,,,,,,,316.983476162,318.47181797,1.48834180832,r,0.669006109238,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/rollerblade2.png,0,1,1,1,0,83,83,83,,,,,,,,,318.472341061,319.959074974,1.48673391342,r,0.735880851746,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/shoe2.png,0,1,1,1,0,84,84,84,,,,,,,,,319.959593058,321.447175026,1.48758196831,r,0.668937206268,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/rose2.png,0,1,1,1,0,85,85,85,,,,,,,,,321.447690964,322.935203075,1.48751211166,r,0.534889936447,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/rose1.png,0,1,1,1,0,86,86,86,,,,,,,,,322.935717106,324.423218012,1.48750090599,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/shell2.png,0,1,1,1,0,87,87,87,,,,,,,,,324.423625946,325.911237001,1.48761105537,r,0.636381864548,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/phone1.png,0,1,1,1,0,88,88,88,,,,,,,,,325.911756992,327.39974618,1.48798918724,r,0.768908977509,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/brick1.png,0,1,1,1,0,89,89,89,,,,,,,,,327.400282145,328.88776803,1.48748588562,r,0.635500907898,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/phone1.png,0,1,1,1,0,90,90,90,,,,,,,,,328.888287067,330.37541914,1.48713207245,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/eggs1.png,0,1,1,1,0,91,91,91,,,,,,,,,330.37583518,331.863332033,1.48749685287,r,0.735899925232,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/mirror1.png,0,1,1,1,0,92,92,92,,,,,,,,,331.863852024,333.351358175,1.4875061512,r,0.635499000549,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/coin2.png,0,1,1,1,0,93,93,93,,,,,,,,,333.35188818,334.839351177,1.48746299744,r,0.501811981201,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/fan2.png,0,1,1,1,0,94,94,94,,,,,,,,,334.839874983,336.344195127,1.50432014465,r,0.701962947845,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/pottedplant2.png,0,1,1,1,0,95,95,95,,,,,,,,,336.344721079,337.832151175,1.48743009567,r,0.434797048569,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/lamp1.png,0,1,1,1,0,96,96,96,,,,,,,,,337.832667112,339.336960077,1.50429296494,r,0.702373027802,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/fireplace2.png,0,1,1,1,0,97,97,97,,,,,,,,,339.337478161,340.82574296,1.48826479912,r,0.836545944214,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/hat1.png,0,1,1,1,0,98,98,98,,,,,,,,,340.826249123,342.31300807,1.48675894737,r,0.735815048218,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/dog1.png,0,1,1,1,0,99,99,99,,,,,,,,,342.313514948,343.801031113,1.48751616478,r,0.769279956818,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/bow1.png,0,1,1,1,0,100,100,100,,,,,,,,,343.801548004,345.289582014,1.48803400993,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/mailbox1.png,0,1,1,1,0,101,101,101,,,,,,,,,345.289994955,346.777078152,1.48708319664,r,0.80227804184,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/bongo2.png,0,1,1,1,0,102,102,102,,,,,,,,,346.777595997,348.265109062,1.48751306534,r,0.701890945435,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/umbrella2.png,0,1,1,1,0,103,103,103,,,,,,,,,348.265617132,349.753540993,1.48792386055,r,0.768862962723,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",FinalStim/canoe2.png,0,1,1,1,0,104,104,104,,,,,,,,,349.754062176,351.258219957,1.5041577816,r,0.769282817841,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+2,"Please press the right button whenever you see an
+image that was presented 2 items back and the left 
+button otherwise.",,0,1,1,1,,,,,,,,,,,,,,,,,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/coin1.png,0,2,2,2,0,0,0,0,,,351.258816957,356.257362127,4.99854516983,356.257368088,356.257984161,0.000616073608398,356.263823032,357.744985104,1.48116207123,r,0.836153030396,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pottedplant2.png,0,2,2,2,0,1,1,1,,,,,,,,,357.745671988,359.233422041,1.48775005341,r,0.568837165833,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/icecreamcone2.png,0,2,2,2,0,2,2,2,,,,,,,,,359.233932972,360.721295118,1.48736214638,r,0.534734010696,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pail2.png,0,2,2,2,0,3,3,3,,,,,,,,,360.721807957,362.20946908,1.48766112328,r,0.635911941528,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sandwich2.png,0,2,2,2,0,4,4,4,,,,,,,,,362.209978104,363.697080135,1.48710203171,r,0.601922988892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pottedplant2.png,0,2,2,2,0,5,5,5,,,,,,,,,363.697730064,365.185101986,1.48737192154,r,0.602411985397,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/eggs1.png,0,2,2,2,0,6,6,6,,,,,,,,,365.185626984,366.673127174,1.48750019073,r,0.535525083542,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pail2.png,0,2,2,2,0,7,7,7,,,,,,,,,366.673640013,368.161163092,1.48752307892,r,0.468724012375,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sandwich1.png,0,2,2,2,0,8,8,8,,,,,,,,,368.161743164,369.649126053,1.48738288879,r,0.502182006836,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/armchair2.png,0,2,2,2,0,9,9,9,,,,,,,,,369.649693012,371.137609959,1.48791694641,r,0.568197965622,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/card1.png,0,2,2,2,0,10,10,10,,,,,,,,,371.13812995,372.625636101,1.4875061512,r,0.735335111618,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/eggs1.png,0,2,2,2,0,11,11,11,,,,,,,,,372.626155138,374.113244057,1.48708891869,g,0.769598960876,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/basket2.png,0,2,2,2,0,12,12,12,,,,,,,,,374.113767147,375.601268053,1.48750090599,r,0.869584083557,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sandwich1.png,0,2,2,2,0,13,13,13,,,,,,,,,375.60178709,377.089403152,1.48761606216,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/envelope2.png,0,2,2,2,0,14,14,14,,,,,,,,,377.089817047,378.593966007,1.50414896011,r,0.836058855057,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/candle2.png,0,2,2,2,0,15,15,15,,,,,,,,,378.594480991,380.08198905,1.48750805855,r,0.602129936218,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/apple2.png,0,2,2,2,0,16,16,16,,,,,,,,,380.08250308,381.571639061,1.48913598061,r,0.636359214783,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fireplace1.png,0,2,2,2,0,17,17,17,,,,,,,,,381.572131157,383.058036089,1.48590493202,r,0.769249916077,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pail1.png,0,2,2,2,0,18,18,18,,,,,,,,,383.058557034,384.546476126,1.48791909218,r,0.836131811142,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/shell1.png,0,2,2,2,0,19,19,19,,,,,,,,,384.546987057,386.034084082,1.48709702492,r,0.735401153564,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/butterfly2.png,0,2,2,2,0,20,20,20,,,,,,,,,386.034595013,387.522107124,1.48751211166,r,0.70285987854,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fireplace1.png,0,2,2,2,0,21,21,21,,,,,,,,,387.522632122,389.010797024,1.48816490173,r,0.501813173294,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/crown1.png,0,2,2,2,0,22,22,22,,,,,,,,,389.011331081,390.498155117,1.48682403564,r,0.702790975571,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lightbulb1.png,0,2,2,2,0,23,23,23,,,,,,,,,390.498672962,392.002901077,1.50422811508,r,0.702449798584,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/skillet2.png,0,2,2,2,0,24,24,24,,,,,,,,,392.003424168,393.49092412,1.48749995232,r,0.702857971191,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/eggs2.png,0,2,2,2,0,25,25,25,,,,,,,,,393.491458178,394.978947163,1.48748898506,r,0.735815048218,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/mirror2.png,0,2,2,2,0,26,26,26,,,,,,,,,394.979480982,396.483766079,1.50428509712,r,0.635157823563,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lightbulb1.png,0,2,2,2,0,27,27,27,,,,,,,,,396.484300137,397.988505125,1.50420498848,g,0.836128950119,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lamp1.png,0,2,2,2,0,28,28,28,,,,,,,,,397.989016056,399.476530075,1.48751401901,r,0.669004917145,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/suitcase2.png,0,2,2,2,0,29,29,29,,,,,,,,,399.477067947,400.964550018,1.48748207092,r,0.63556098938,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/crown2.png,0,2,2,2,0,30,30,30,,,,,,,,,400.965064049,402.452988148,1.48792409897,r,0.668520212173,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/teapot1.png,0,2,2,2,0,31,31,31,,,,,,,,,402.453505993,403.940529108,1.48702311516,r,0.534630060196,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/iris2.png,0,2,2,2,0,32,32,32,,,,,,,,,403.941041946,405.445343971,1.50430202484,r,0.467893123627,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/phone1.png,0,2,2,2,0,33,33,33,,,,,,,,,405.445863008,406.93336606,1.48750305176,r,0.869386196136,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/butterfly1.png,0,2,2,2,0,34,34,34,,,,,,,,,406.933887005,408.421802998,1.48791599274,r,0.903010129929,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/bongo1.png,0,2,2,2,0,35,35,35,,,,,,,,,408.422382116,409.909966946,1.48758482933,r,0.601573944092,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/brick1.png,0,2,2,2,0,36,36,36,,,,,,,,,409.910585165,411.397366047,1.48678088188,r,0.601989984512,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/button1.png,0,2,2,2,0,37,37,37,,,,,,,,,411.397885084,412.885282993,1.48739790916,r,0.501672029495,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/butterfly1.png,0,2,2,2,0,38,38,38,,,,,,,,,412.885787964,414.37341404,1.48762607574,r,0.702305793762,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sink2.png,0,2,2,2,0,39,39,39,,,,,,,,,414.37392211,415.878158092,1.50423598289,r,0.668937921524,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lightbulb2.png,0,2,2,2,0,40,40,40,,,,,,,,,415.878672123,417.366249084,1.48757696152,r,0.736202955246,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/suitcase1.png,0,2,2,2,0,41,41,41,,,,,,,,,417.366769075,418.854206085,1.48743700981,r,0.735534906387,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/compmouse1.png,0,2,2,2,0,42,42,42,,,,,,,,,418.854720116,420.342643976,1.48792386055,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sink2.png,0,2,2,2,0,43,43,43,,,,,,,,,420.34305501,421.830666065,1.48761105537,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/apple1.png,0,2,2,2,0,44,44,44,,,,,,,,,421.831073999,423.318276167,1.48720216751,r,0.76805305481,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/rollerblade2.png,0,2,2,2,0,45,45,45,,,,,,,,,423.318797112,424.806300163,1.48750305176,r,0.903511047363,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/rose2.png,0,2,2,2,0,46,46,46,,,,,,,,,424.806825161,426.294322014,1.48749685287,r,0.80282998085,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/icecreamcone1.png,0,2,2,2,0,47,47,47,,,,,,,,,426.294839144,427.782361031,1.48752188683,r,0.669412136078,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/apple1.png,0,2,2,2,0,48,48,48,,,,,,,,,427.782927036,429.27037096,1.48744392395,r,0.468731880188,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/canoe1.png,0,2,2,2,0,49,49,49,,,,,,,,,429.270884037,430.775120974,1.50423693657,r,0.9366979599,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/umbrella1.png,0,2,2,2,0,50,50,50,,,,,,,,,430.775629044,432.263617039,1.48798799515,r,0.803032159805,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/coin2.png,0,2,2,2,0,51,51,51,,,,,,,,,432.264134169,433.751166105,1.48703193665,r,0.903445005417,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lobster2.png,0,2,2,2,0,52,52,52,,,,,,,,,433.751695156,435.239670038,1.48797488213,r,0.702034950256,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/teapot2.png,0,2,2,2,0,53,53,53,,,,,,,,,435.240187168,436.727277994,1.48709082603,r,0.602632045746,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/bongo2.png,0,2,2,2,0,54,54,54,,,,,,,,,436.727805138,438.215232134,1.48742699623,r,0.769745111465,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/hat1.png,0,2,2,2,0,55,55,55,,,,,,,,,438.215754032,439.703259945,1.48750591278,r,0.669456958771,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/candle1.png,0,2,2,2,0,56,56,56,,,,,,,,,439.703785181,441.19128108,1.4874958992,r,0.702444791794,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/phone2.png,0,2,2,2,0,57,57,57,,,,,,,,,441.191859007,442.679342031,1.4874830246,r,0.702373981476,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/compmouse2.png,0,2,2,2,0,58,58,58,,,,,,,,,442.679860115,444.16781497,1.48795485497,r,0.702033042908,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/hat1.png,0,2,2,2,0,59,59,59,,,,,,,,,444.168324947,445.655352116,1.48702716827,g,0.668862104416,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fan2.png,0,2,2,2,0,60,60,60,,,,,,,,,445.655868053,447.160168171,1.50430011749,r,0.735932826996,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/candle1.png,0,2,2,2,0,61,61,61,,,,,,,,,447.160676003,448.648298979,1.4876229763,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/cat1.png,0,2,2,2,0,62,62,62,,,,,,,,,448.648712158,450.136144161,1.48743200302,r,0.73602604866,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/skillet1.png,0,2,2,2,0,63,63,63,,,,,,,,,450.136667013,451.640956163,1.50428915024,g,0.802551984787,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/bow1.png,0,2,2,2,0,64,64,64,,,,,,,,,451.641468048,453.12898016,1.48751211166,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fan2.png,0,2,2,2,0,65,65,65,,,,,,,,,453.129399061,454.617035151,1.48763608932,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/card2.png,0,2,2,2,0,66,66,66,,,,,,,,,454.617454052,456.10502696,1.4875729084,r,0.635427951813,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/smallbird1.png,0,2,2,2,0,67,67,67,,,,,,,,,456.105545998,457.593050003,1.48750400543,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/shoe2.png,0,2,2,2,0,68,68,68,,,,,,,,,457.593454123,459.081488132,1.48803400993,r,0.802904844284,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/armchair1.png,0,2,2,2,0,69,69,69,,,,,,,,,459.081995964,460.569134951,1.48713898659,r,0.569379091263,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/umbrella2.png,0,2,2,2,0,70,70,70,,,,,,,,,460.569641113,462.057121992,1.48748087883,r,0.66886806488,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/mailbox1.png,0,2,2,2,0,71,71,71,,,,,,,,,462.057626963,463.545145988,1.4875190258,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/brick2.png,0,2,2,2,0,72,72,72,,,,,,,,,463.545567036,465.033281088,1.4877140522,r,0.836130142212,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/rose1.png,0,2,2,2,0,73,73,73,,,,,,,,,465.033796072,466.521126986,1.48733091354,r,0.836131095886,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/umbrella2.png,0,2,2,2,0,74,74,74,,,,,,,,,466.521655083,468.009629965,1.48797488213,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fan1.png,0,2,2,2,0,75,75,75,,,,,,,,,468.010043144,469.497328997,1.48728585243,r,0.80227804184,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/fireplace2.png,0,2,2,2,0,76,76,76,,,,,,,,,469.497845173,470.985267162,1.48742198944,r,0.602058887482,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/bow2.png,0,2,2,2,0,77,77,77,,,,,,,,,470.985794067,472.473289967,1.4874958992,r,0.535743951797,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/canoe2.png,0,2,2,2,0,78,78,78,,,,,,,,,472.473807096,473.978142977,1.50433588028,r,0.468230962753,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/shoe1.png,0,2,2,2,0,79,79,79,,,,,,,,,473.97867012,475.465986967,1.48731684685,r,0.53531908989,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/shell2.png,0,2,2,2,0,80,80,80,,,,,,,,,475.466492176,476.954010963,1.48751878738,r,0.535664081573,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/broom1.png,0,2,2,2,0,81,81,81,,,,,,,,,476.954534054,478.44253397,1.48799991608,r,0.602696180344,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lobster1.png,0,2,2,2,0,82,82,82,,,,,,,,,478.443041086,479.930237055,1.48719596863,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/dog2.png,0,2,2,2,0,83,83,83,,,,,,,,,479.930648088,481.418503046,1.48785495758,r,0.768840074539,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/broom2.png,0,2,2,2,0,84,84,84,,,,,,,,,481.419028044,482.906126022,1.48709797859,r,0.769110918045,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/horn1.png,0,2,2,2,0,85,85,85,,,,,,,,,482.906641006,484.394129038,1.48748803139,r,0.568691015244,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lobster1.png,0,2,2,2,0,86,86,86,,,,,,,,,484.394648075,485.882153988,1.48750591278,r,0.669517040253,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/horn2.png,0,2,2,2,0,87,87,87,,,,,,,,,485.882677078,487.370589972,1.4879128933,r,0.669291973114,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/button2.png,0,2,2,2,0,88,88,88,,,,,,,,,487.371109962,488.85861516,1.48750519753,r,0.636052131653,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/rollerblade1.png,0,2,2,2,0,89,89,89,,,,,,,,,488.859200954,490.346641064,1.48744010925,r,0.568275928497,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/razor2.png,0,2,2,2,0,90,90,90,,,,,,,,,490.347175121,491.834248066,1.48707294464,r,0.835944890976,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/lamp2.png,0,2,2,2,0,91,91,91,,,,,,,,,491.834752083,493.32227397,1.48752188683,r,0.602895021439,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/iris1.png,0,2,2,2,0,92,92,92,,,,,,,,,493.322788,494.810295105,1.48750710487,r,0.668922901154,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/cat2.png,0,2,2,2,0,93,93,93,,,,,,,,,494.81081605,496.298732996,1.48791694641,r,0.50229716301,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/razor2.png,0,2,2,2,0,94,94,94,,,,,,,,,496.299263954,497.786757946,1.48749399185,g,0.601784944534,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/razor1.png,0,2,2,2,0,95,95,95,,,,,,,,,497.787292004,499.274780989,1.48748898506,r,0.835715055466,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/sink1.png,0,2,2,2,0,96,96,96,,,,,,,,,499.275324106,500.762334108,1.48701000214,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/mirror1.png,0,2,2,2,0,97,97,97,,,,,,,,,500.762751102,502.250413179,1.48766207695,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/mailbox2.png,0,2,2,2,0,98,98,98,,,,,,,,,502.250823975,503.738511086,1.4876871109,r,0.836127996445,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/envelope1.png,0,2,2,2,0,99,99,99,,,,,,,,,503.739038944,505.24319315,1.50415420532,r,0.602343082428,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/basket1.png,0,2,2,2,0,100,100,100,,,,,,,,,505.243697166,506.731210947,1.48751378059,r,0.535037994385,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/pottedplant1.png,0,2,2,2,0,101,101,101,,,,,,,,,506.731727123,508.219715118,1.48798799515,r,0.534767866135,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/hat2.png,0,2,2,2,0,102,102,102,,,,,,,,,508.220236063,509.707322121,1.48708605766,r,0.434453010559,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/smallbird2.png,0,2,2,2,0,103,103,103,,,,,,,,,509.707841158,511.212481022,1.50463986397,r,0.702449083328,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",FinalStim/dog1.png,0,2,2,2,0,104,104,104,,,,,,,,,511.21299696,512.700507164,1.48751020432,r,0.668660879135,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+4,"Please press the right button whenever you see an
+image that was presented 4 items back and the left  
+button otherwise.",,0,2,2,2,,,,,,,,,,,,,,,,,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/umbrella2.png,0,3,3,3,0,0,0,0,,,512.701099157,517.699577093,4.99847793579,517.699583054,517.700201035,0.000617980957031,517.706072092,519.187148094,1.48107600212,r,0.468398094177,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/cat2.png,0,3,3,3,0,1,1,1,,,,,,,,,519.187863111,520.675168037,1.48730492592,r,0.501796960831,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/dog2.png,0,3,3,3,0,2,2,2,,,,,,,,,520.675693035,522.16319418,1.48750114441,r,0.568792819977,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/phone1.png,0,3,3,3,0,3,3,3,,,,,,,,,522.163710117,523.651214123,1.48750400543,r,0.535181045532,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/bow1.png,0,3,3,3,0,4,4,4,,,,,,,,,523.6517241,525.139232159,1.48750805855,g,0.803205013275,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/envelope1.png,0,3,3,3,0,5,5,5,,,,,,,,,525.139755011,526.644044161,1.50428915024,r,0.669700145721,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/umbrella2.png,0,3,3,3,0,6,6,6,,,,,,,,,526.644550085,528.132483006,1.48793292046,g,0.869568824768,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/coin2.png,0,3,3,3,0,7,7,7,,,,,,,,,528.13402009,529.620507956,1.48648786545,r,0.601644039154,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/sandwich2.png,0,3,3,3,0,8,8,8,,,,,,,,,529.621025085,531.108118057,1.4870929718,r,0.668869972229,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/umbrella1.png,0,3,3,3,0,9,9,9,,,,,,,,,531.108641148,532.596146107,1.48750495911,r,0.80259013176,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/teapot2.png,0,3,3,3,0,10,10,10,,,,,,,,,532.596668959,534.084161997,1.48749303818,r,0.602469921112,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/coin1.png,0,3,3,3,0,11,11,11,,,,,,,,,534.08468008,535.572189093,1.48750901222,r,0.837517976761,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/envelope1.png,0,3,3,3,0,12,12,12,,,,,,,,,535.572715044,537.077262163,1.50454711914,g,0.80269408226,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/rollerblade2.png,0,3,3,3,0,13,13,13,,,,,,,,,537.077769995,538.564954996,1.48718500137,r,0.668385028839,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/canoe2.png,0,3,3,3,0,14,14,14,,,,,,,,,538.565471172,540.069635153,1.50416398048,r,0.735811948776,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/icecreamcone1.png,0,3,3,3,0,15,15,15,,,,,,,,,540.070152998,541.55806613,1.48791313171,r,0.467782974243,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/crown1.png,0,3,3,3,0,16,16,16,,,,,,,,,541.558578014,543.04609704,1.4875190258,r,0.635982036591,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/coin1.png,0,3,3,3,0,17,17,17,,,,,,,,,543.046602964,544.533699989,1.48709702492,g,0.836547851562,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/horn2.png,0,3,3,3,0,18,18,18,,,,,,,,,544.534211159,546.038511038,1.50429987907,r,0.602480888367,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/sink1.png,0,3,3,3,0,19,19,19,,,,,,,,,546.039030075,547.543684959,1.50465488434,r,0.535225152969,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/armchair1.png,0,3,3,3,0,20,20,20,,,,,,,,,547.544284105,549.031857014,1.4875729084,r,0.434864997864,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/apple1.png,0,3,3,3,0,21,21,21,,,,,,,,,549.032499075,550.519142151,1.48664307594,r,0.468873977661,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/teapot1.png,0,3,3,3,0,22,22,22,,,,,,,,,550.519654989,552.00725913,1.48760414124,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/sandwich1.png,0,3,3,3,0,23,23,23,,,,,,,,,552.007665157,553.495835066,1.48816990852,r,0.669490098953,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lightbulb1.png,0,3,3,3,0,24,24,24,,,,,,,,,553.496370077,554.983790159,1.48742008209,r,0.802278995514,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/card1.png,0,3,3,3,0,25,25,25,,,,,,,,,554.984313965,556.471815109,1.48750114441,r,0.836253166199,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/armchair1.png,0,3,3,3,0,26,26,26,,,,,,,,,556.472332954,557.959355116,1.48702216148,g,0.836546897888,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/apple1.png,0,3,3,3,0,27,27,27,,,,,,,,,557.9598701,559.447379112,1.48750901222,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/dog1.png,0,3,3,3,0,28,28,28,,,,,,,,,559.447792053,560.935410023,1.48761796951,r,0.870124816895,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/fireplace2.png,0,3,3,3,0,29,29,29,,,,,,,,,560.935925961,562.424088955,1.48816299438,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/hat1.png,0,3,3,3,0,30,30,30,,,,,,,,,562.424504042,563.91200304,1.48749899864,r,0.701889038086,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/button1.png,0,3,3,3,0,31,31,31,,,,,,,,,563.912523031,565.399955988,1.4874329567,r,0.60164308548,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/iris2.png,0,3,3,3,0,32,32,32,,,,,,,,,565.400472164,566.887495995,1.48702383041,r,0.43493103981,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/apple2.png,0,3,3,3,0,33,33,33,,,,,,,,,566.888003111,568.375806093,1.48780298233,r,0.635498046875,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/razor1.png,0,3,3,3,0,34,34,34,,,,,,,,,568.37631011,569.863718987,1.48740887642,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/canoe1.png,0,3,3,3,0,35,35,35,,,,,,,,,569.864138126,571.369914055,1.5057759285,r,0.534767866135,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/hat1.png,0,3,3,3,0,36,36,36,,,,,,,,,571.370409966,572.856863022,1.48645305634,g,0.869462013245,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/button1.png,0,3,3,3,0,37,37,37,,,,,,,,,572.857376099,574.344887018,1.48751091957,r,0.701894044876,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/razor2.png,0,3,3,3,0,38,38,38,,,,,,,,,574.345405102,575.832499027,1.48709392548,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/button2.png,0,3,3,3,0,39,39,39,,,,,,,,,575.832931042,577.32052207,1.48759102821,r,0.569036006927,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lamp2.png,0,3,3,3,0,40,40,40,,,,,,,,,577.321043015,578.808536053,1.48749303818,r,0.602789878845,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/skillet1.png,0,3,3,3,0,41,41,41,,,,,,,,,578.80906105,580.31321907,1.50415802002,r,0.769392967224,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/bongo2.png,0,3,3,3,0,42,42,42,,,,,,,,,580.313723087,581.801243067,1.48751997948,r,0.66886806488,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/mailbox2.png,0,3,3,3,0,43,43,43,,,,,,,,,581.801757097,583.305916071,1.50415897369,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/suitcase2.png,0,3,3,3,0,44,44,44,,,,,,,,,583.306318998,584.793939114,1.48762011528,r,0.467958211899,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/fan1.png,0,3,3,3,0,45,45,45,,,,,,,,,584.794455051,586.28196311,1.48750805855,r,0.43542098999,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/broom2.png,0,3,3,3,0,46,46,46,,,,,,,,,586.282479048,587.769986153,1.48750710487,r,0.46830701828,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/brick1.png,0,3,3,3,0,47,47,47,,,,,,,,,587.770499945,589.274742126,1.50424218178,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/fan2.png,0,3,3,3,0,48,48,48,,,,,,,,,589.275170088,590.779476166,1.50430607796,r,0.76970410347,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/shoe1.png,0,3,3,3,0,49,49,49,,,,,,,,,590.779994011,592.267982006,1.48798799515,r,0.602125167847,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/candle2.png,0,3,3,3,0,50,50,50,,,,,,,,,592.268497944,593.756008148,1.48751020432,r,0.601645946503,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/pottedplant2.png,0,3,3,3,0,51,51,51,,,,,,,,,593.756531,595.243612051,1.48708105087,r,0.535181999207,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/eggs2.png,0,3,3,3,0,52,52,52,,,,,,,,,595.244120121,596.731641054,1.48752093315,r,0.635566949844,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/card2.png,0,3,3,3,0,53,53,53,,,,,,,,,596.732160091,598.219665051,1.48750495911,r,0.735816001892,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/shell1.png,0,3,3,3,0,54,54,54,,,,,,,,,598.220170975,599.707688093,1.48751711845,r,0.70157790184,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/butterfly2.png,0,3,3,3,0,55,55,55,,,,,,,,,599.708199978,601.195645094,1.48744511604,r,0.602541923523,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/candle2.png,0,3,3,3,0,56,56,56,,,,,,,,,601.196160078,602.683624983,1.48746490479,r,0.434932947159,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/skillet2.png,0,3,3,3,0,57,57,57,,,,,,,,,602.68414402,604.188544989,1.50440096855,r,0.468590021133,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/shell2.png,0,3,3,3,0,58,58,58,,,,,,,,,604.18906498,605.676502943,1.48743796349,r,0.635502099991,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/cat1.png,0,3,3,3,0,59,59,59,,,,,,,,,605.677023172,607.164527178,1.48750400543,r,0.702857971191,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/phone2.png,0,3,3,3,0,60,60,60,,,,,,,,,607.165048122,608.652552128,1.48750400543,g,0.804181814194,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/basket1.png,0,3,3,3,0,61,61,61,,,,,,,,,608.653131008,610.140644073,1.48751306534,r,0.769253969193,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/suitcase1.png,0,3,3,3,0,62,62,62,,,,,,,,,610.141168118,611.628530979,1.48736286163,r,0.635499954224,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/sink2.png,0,3,3,3,0,63,63,63,,,,,,,,,611.629038095,613.133341074,1.50430297852,r,0.769259929657,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/shell2.png,0,3,3,3,0,64,64,64,,,,,,,,,613.133840084,614.621430159,1.48759007454,r,0.7691822052,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/compmouse1.png,0,3,3,3,0,65,65,65,,,,,,,,,614.621942043,616.109802008,1.48785996437,r,0.668454170227,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lamp1.png,0,3,3,3,0,66,66,66,,,,,,,,,616.110313177,617.597826958,1.48751378059,r,0.668697834015,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/hat2.png,0,3,3,3,0,67,67,67,,,,,,,,,617.598345041,619.085366011,1.48702096939,r,0.769929170609,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/basket2.png,0,3,3,3,0,68,68,68,,,,,,,,,619.085881948,620.573390007,1.48750805855,r,0.80269408226,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/rose2.png,0,3,3,3,0,69,69,69,,,,,,,,,620.573905945,622.061414957,1.48750901222,r,0.702306985855,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/candle1.png,0,3,3,3,0,70,70,70,,,,,,,,,622.061934948,623.549247026,1.48731207848,r,0.769181013107,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/brick2.png,0,3,3,3,0,71,71,71,,,,,,,,,623.549772978,625.054182053,1.50440907478,r,0.70272898674,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/smallbird2.png,0,3,3,3,0,72,72,72,,,,,,,,,625.054708004,626.558809042,1.50410103798,r,0.668864011765,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/shoe2.png,0,3,3,3,0,73,73,73,,,,,,,,,626.559335947,628.046947002,1.48761105537,r,0.568628072739,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/mailbox1.png,0,3,3,3,0,74,74,74,,,,,,,,,628.047472,629.535387039,1.48791503906,r,0.702033042908,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/fireplace1.png,0,3,3,3,0,75,75,75,,,,,,,,,629.535892963,631.022995949,1.48710298538,r,0.735399007797,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/candle1.png,0,3,3,3,0,76,76,76,,,,,,,,,631.023522139,632.511139154,1.48761701584,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/envelope2.png,0,3,3,3,0,77,77,77,,,,,,,,,632.511548996,634.015836,1.50428700447,r,0.836133003235,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/compmouse2.png,0,3,3,3,0,78,78,78,,,,,,,,,634.016355038,635.503788948,1.48743391037,r,0.802627086639,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/icecreamcone2.png,0,3,3,3,0,79,79,79,,,,,,,,,635.504302025,636.991814137,1.48751211166,r,0.635436058044,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lightbulb2.png,0,3,3,3,0,80,80,80,,,,,,,,,636.992326975,638.479837179,1.48751020432,r,0.635436058044,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/smallbird1.png,0,3,3,3,0,81,81,81,,,,,,,,,638.480350971,639.968342066,1.48799109459,r,0.669013023376,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lobster1.png,0,3,3,3,0,82,82,82,,,,,,,,,639.96886301,641.456063032,1.48720002174,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/pail2.png,0,3,3,3,0,83,83,83,,,,,,,,,641.45646596,642.943978071,1.48751211166,r,0.636068105698,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/armchair2.png,0,3,3,3,0,84,84,84,,,,,,,,,642.944494009,644.43200016,1.4875061512,r,0.635429143906,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/bongo1.png,0,3,3,3,0,85,85,85,,,,,,,,,644.432506084,645.920031071,1.48752498627,r,0.568549871445,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/rollerblade1.png,0,3,3,3,0,86,86,86,,,,,,,,,645.920544147,647.408046961,1.48750281334,r,0.769252061844,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/pail1.png,0,3,3,3,0,87,87,87,,,,,,,,,647.408557177,648.896486044,1.48792886734,r,0.701892852783,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lobster1.png,0,3,3,3,0,88,88,88,,,,,,,,,648.896996975,650.384094954,1.48709797859,g,0.836189031601,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/pail2.png,0,3,3,3,0,89,89,89,,,,,,,,,650.384610176,651.87211895,1.4875087738,g,0.869980096817,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/horn1.png,0,3,3,3,0,90,90,90,,,,,,,,,651.872639179,653.360145092,1.48750591278,r,0.669487953186,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/bow2.png,0,3,3,3,0,91,91,91,,,,,,,,,653.360669136,654.848502159,1.48783302307,r,0.700673103333,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/mirror2.png,0,3,3,3,0,92,92,92,,,,,,,,,654.849025965,656.352910995,1.50388503075,r,0.602131128311,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/rollerblade1.png,0,3,3,3,0,93,93,93,,,,,,,,,656.353445053,657.840934038,1.48748898506,g,0.836201190948,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/butterfly1.png,0,3,3,3,0,94,94,94,,,,,,,,,657.841456175,659.328958035,1.48750185966,r,0.601574897766,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/rose1.png,0,3,3,3,0,95,95,95,,,,,,,,,659.329475164,660.817394018,1.48791885376,r,0.467890977859,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lobster2.png,0,3,3,3,0,96,96,96,,,,,,,,,660.817907095,662.305005074,1.48709797859,r,0.635428905487,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/bow2.png,0,3,3,3,0,97,97,97,,,,,,,,,662.305510998,663.79302907,1.48751807213,g,0.903423070908,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/eggs1.png,0,3,3,3,0,98,98,98,,,,,,,,,663.793548107,665.297702074,1.5041539669,r,0.601572036743,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/crown2.png,0,3,3,3,0,99,99,99,,,,,,,,,665.298218966,666.785725117,1.4875061512,r,0.46865105629,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/broom1.png,0,3,3,3,0,100,100,100,,,,,,,,,666.786245108,668.273856163,1.48761105537,r,0.736400842667,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/iris1.png,0,3,3,3,0,101,101,101,,,,,,,,,668.274475098,669.762187958,1.48771286011,r,0.702031850815,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/pottedplant1.png,0,3,3,3,0,102,102,102,,,,,,,,,669.762768984,671.249798059,1.48702907562,r,0.502295970917,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/lobster2.png,0,3,3,3,0,103,103,103,,,,,,,,,671.250324011,672.737821102,1.48749709129,g,0.769670009613,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",FinalStim/mirror1.png,0,3,3,3,0,104,104,104,,,,,,,,,672.738326073,674.226578951,1.48825287819,None,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,
+6,"Please press the right button whenever you see an  
+image that was presented 6 items back and the left  
+button otherwise.",,0,3,3,3,,,,,,,,,,,,,,,,,,2019_Oct_07_1137,29.9050153222,NBackExp,DB001,

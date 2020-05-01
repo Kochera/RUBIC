@@ -1,0 +1,225 @@
+<WindowManager>:
+    id: WindowManager
+    MainWindow:
+    SecondWindow:
+    Filechooser:
+    Filechooserts:
+    TSWindow
+
+<MainWindow>:
+
+    name: "main"
+
+    FloatLayout:
+        Image:
+            pos_hint: {"top":1}
+            size_hint: 1, 0.3
+            allow_stretch: False
+            keep_ratio: True
+            source: "Static/Rutgers-RUBIC.gif"
+
+        Button:
+            size_hint: 0.75, 0.05
+            pos_hint: {"x":0.125, "top":0.72}
+            text: "Create Onset Files"
+            on_release:
+                app.root.current = "files"
+                root.manager.transition.direction = "right"
+        Button:
+            size_hint: 0.75, 0.05
+            pos_hint: {"x":0.125, "top":0.65}
+            text: "Time-Series Extractor"
+            on_release:
+                app.root.current = "filests"
+                root.manager.transition.direction = "right"
+
+
+
+
+<Filechooser>:
+    name: "files"
+    path: path
+
+    FloatLayout:
+
+
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Static/Rutgers-RUBIC.gif"
+
+        Label:
+            pos_hint: {"right": 0.55, "top":.9}
+            size_hint: 0.1, 0.1
+            text: "Select CSV file for Onset File Creation"
+
+        BoxLayout:
+            FileChooserIconView:
+                pos_hint: { "top":.78}
+                size_hint: 1, 0.65
+                canvas.before:
+                    Color:
+                        rgba: .66, .66, .66, .66
+                    Rectangle:
+                        pos: 0, 0
+                        size: self.size
+                on_selection: root.select(*args)
+
+        # Adding label
+        Label:
+            id: path
+            pos_hint: {"top": 0.12, "left": .5}
+            size_hint: 1, .03
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.03
+            text: "Select"
+            on_release:
+                root.savePath(self, path)
+                root.getcols(self)
+                app.root.current = "second"
+                root.manager.transition.direction = "left"
+
+        CheckBox:
+            id: checkbox
+            pos_hint: {"top": 0.036, "right": .985}
+            size_hint: 0.02, 0.02
+            color: 1, 1, 1, 1
+            canvas.before:
+                Color:
+                    rgb: 1, 1, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            on_active: root.checked(self, self.active)
+
+        Label:
+            pos_hint: {"top": 0.075, "right": 0.79}
+            size_hint: 0.15, 0.1
+            text: "Bash for all Subjects(Works only if in BIDS format)"
+
+<Filechooserts>:
+    name: "filests"
+    path: path
+
+    FloatLayout:
+
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Static/Rutgers-RUBIC.gif"
+
+        Label:
+            pos_hint: {"right": 0.55, "top":.9}
+            size_hint: 0.1, 0.1
+            text: "Select BOLD Data for Time series Extraction"
+
+        BoxLayout:
+            FileChooserIconView:
+                pos_hint: { "top":.78}
+                size_hint: 1, 0.65
+                canvas.before:
+                    Color:
+                        rgba: .66, .66, .66, .66
+                    Rectangle:
+                        pos: 0, 0
+                        size: self.size
+                on_selection: root.select(*args)
+
+        # Adding label
+        Label:
+            id: path
+            pos_hint: {"top": 0.12, "left": .5}
+            size_hint: 1, .03
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.03
+            text: "Select"
+            on_release:
+                root.savePath(self, path)
+                app.root.current = "TSW"
+                root.manager.transition.direction = "left"
+
+        CheckBox:
+            id: checkbox
+            pos_hint: {"top": 0.036, "right": .985}
+            size_hint: 0.02, 0.02
+            color: 1, 1, 1, 1
+            canvas.before:
+                Color:
+                    rgb: 1, 1, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            on_active: root.checked(self, self.active)
+
+        Label:
+            pos_hint: {"top": 0.075, "right": 0.77}
+            size_hint: 0.15, 0.1
+            text: "Bash for all Subjects(Goes Through Onset_Files Folder)"
+
+<TSWindow>:
+    name: "TSW"
+    FloatLayout:
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Static/Rutgers-RUBIC.gif"
+
+
+        Button:
+            text: "Go Back"
+            pos_hint: {"right": 1, "top": 1}
+            size_hint: 0.1, 0.05
+            on_release:
+                app.root.current = "filests"
+                root.manager.transition.direction = "right"
+
+
+<SecondWindow>:
+    name: "second"
+
+    FloatLayout:
+        id: floatOnset
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Static/Rutgers-RUBIC.gif"
+
+        Label:
+            pos_hint: {"right": 0.55, "top":.9}
+            size_hint: 0.1, 0.1
+            text: "Select CSV file for Onset File Creation"
+        Button:
+            text: "Go Back"
+            pos_hint: {"right": 1, "top": 1}
+            size_hint: 0.1, 0.05
+            on_release:
+                app.root.current = "files"
+                root.manager.transition.direction = "right"
+
+
+
+
