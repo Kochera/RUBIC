@@ -81,7 +81,7 @@ def create_onset_file(Onset_Data_Labels, data_dict, start_time, num = 0):
         return -1
     #ind = len( Onset_Data_Labels[start_ind[0]])
     onset = Onset_Data_Labels[start_ind[0]].replace("Start", "")
-    path_add = "Onset_Files/"
+    path_add = "Scripts/Onset_Files/"
     #onset_name = Onset_Data_Labels[start_ind[0]][0:ind] + ".txt"
     if num == 0:
         onset_name = os.path.join(path_add, onset+ ".txt")

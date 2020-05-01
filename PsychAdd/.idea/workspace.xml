@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/AnalyzeCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+            <state relative-caret-position="97">
+              <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -79,10 +79,10 @@
         <option value="$PROJECT_DIR$/Scripts/Kivy_Templates/gui.py" />
         <option value="$PROJECT_DIR$/Scripts/Kivy_Templates/PsychopyAddon.kv" />
         <option value="$PROJECT_DIR$/Scripts/readExcel.py" />
-        <option value="$PROJECT_DIR$/Scripts/AnalyzeCSV.py" />
         <option value="$PROJECT_DIR$/Scripts/gui.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Scripts/PsychopyAddon.kv" />
+        <option value="$PROJECT_DIR$/Scripts/AnalyzeCSV.py" />
       </list>
     </option>
   </component>
@@ -309,16 +309,15 @@
       <workItem from="1588054017242" duration="3244000" />
       <workItem from="1588058282335" duration="63853000" />
       <workItem from="1588270866107" duration="9187000" />
-      <workItem from="1588337376626" duration="5882000" />
+      <workItem from="1588337376626" duration="6134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221606000" />
+    <option name="totallyTimeSpent" value="221858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.11748818" />
       <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.23595506" />
@@ -501,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/AnalyzeCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/PsychopyAddon.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -532,6 +521,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/AnalyzeCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="79" column="23" lean-forward="true" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
