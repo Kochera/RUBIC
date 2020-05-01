@@ -3,8 +3,9 @@
     MainWindow:
     SecondWindow:
     Filechooser:
-    Filechooserts:
-    TSWindow
+    Filechooserbold:
+    Filechoosermask:
+    TSWindow:
 
 <MainWindow>:
 
@@ -30,7 +31,7 @@
             pos_hint: {"x":0.125, "top":0.65}
             text: "Time-Series Extractor"
             on_release:
-                app.root.current = "filests"
+                app.root.current = "filesbold"
                 root.manager.transition.direction = "right"
 
 
@@ -107,9 +108,9 @@
             size_hint: 0.15, 0.1
             text: "Bash for all Subjects(Works only if in BIDS format)"
 
-<Filechooserts>:
-    name: "filests"
-    path: path
+<Filechooserbold>:
+    name: "filesbold"
+    bold: bold
 
     FloatLayout:
 
@@ -139,7 +140,7 @@
 
         # Adding label
         Label:
-            id: path
+            id: bold
             pos_hint: {"top": 0.12, "left": .5}
             size_hint: 1, .03
             canvas.before:
@@ -154,27 +155,63 @@
             size_hint: 0.15, 0.03
             text: "Select"
             on_release:
-                root.savePath(self, path)
-                app.root.current = "TSW"
+                root.saveBold(self, bold)
+                app.root.current = "filesmask"
                 root.manager.transition.direction = "left"
 
-        CheckBox:
-            id: checkbox
-            pos_hint: {"top": 0.036, "right": .985}
-            size_hint: 0.02, 0.02
-            color: 1, 1, 1, 1
+
+<Filechoosermask>:
+    name: "filesmask"
+    mask: mask
+
+    FloatLayout:
+
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Scripts/Static/Rutgers-RUBIC.gif"
+
+        Label:
+            pos_hint: {"right": 0.55, "top":.9}
+            size_hint: 0.1, 0.1
+            text: "Select Mask for Time series Extraction"
+
+        BoxLayout:
+            FileChooserIconView:
+                pos_hint: { "top":.78}
+                size_hint: 1, 0.65
+                canvas.before:
+                    Color:
+                        rgba: .66, .66, .66, .66
+                    Rectangle:
+                        pos: 0, 0
+                        size: self.size
+                on_selection: root.select(*args)
+
+        # Adding label
+        Label:
+            id: mask
+            pos_hint: {"top": 0.12, "left": .5}
+            size_hint: 1, .03
             canvas.before:
                 Color:
-                    rgb: 1, 1, 1
+                    rgba: .66, .66, .66, .66
                 Rectangle:
                     pos: self.pos
                     size: self.size
-            on_active: root.checked(self, self.active)
 
-        Label:
-            pos_hint: {"top": 0.075, "right": 0.77}
-            size_hint: 0.15, 0.1
-            text: "Bash for all Subjects(Goes Through Onset_Files Folder)"
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.03
+            text: "Select"
+            on_release:
+                root.saveMask(self, mask)
+                app.root.current = "TSW"
+                root.manager.transition.direction = "left"
+
+
 
 <TSWindow>:
     name: "TSW"
@@ -192,7 +229,7 @@
             pos_hint: {"right": 1, "top": 1}
             size_hint: 0.1, 0.05
             on_release:
-                app.root.current = "filests"
+                app.root.current = "main"
                 root.manager.transition.direction = "right"
 
 
