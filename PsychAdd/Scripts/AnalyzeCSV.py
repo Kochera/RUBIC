@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import subprocess
 import os.path
 
 def read_csv(file):
@@ -128,3 +129,6 @@ def get_paths_BIDS(file_path):
         path_list.append(base_path + "\\" + sub + "\\"+inner_directory + "\\" + file_name)
 
     return path_list
+
+def create_Time_Series():
+    pass

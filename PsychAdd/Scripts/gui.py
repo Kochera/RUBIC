@@ -161,4 +161,3 @@ class PsychopyAddonApp(App):
 def activateGUI():
     PsychopyAddonApp().run()
 
-activateGUI()
