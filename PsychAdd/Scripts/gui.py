@@ -6,6 +6,8 @@ from kivy.uix.button import Button
 from kivy.config import Config
 from Scripts.AnalyzeCSV import get_headers, remove_string_data, create_data_dictionary, read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series
 from kivy.core.window import Window
+from kivy.uix.popup import Popup
+from kivy.uix.floatlayout import FloatLayout
 Config.set('graphics', 'resizable', False)
 file_path = ""
 bold_file = ""
@@ -16,6 +18,17 @@ Data_Dict = {}
 df = pd.DataFrame
 batch = False
 batchts = False
+
+class P(Screen):
+    pass
+
+def show_popup():
+    show = P()
+
+    popupWindow = Popup(title="Onset File Created", content = show, size_hint = (None, None), size= (400,200) )
+
+    popupWindow.open()
+
 # create the layout class
 class MainWindow(Screen):
     def __init__(self, **kwargs):
@@ -89,7 +102,6 @@ class SecondWindow(Screen):
         if batch == False:
             start_time = get_start_time(df)
             create_onset_file(Onset_Data_List, Data_Dict, start_time)
-            return 0
         else:
             paths = get_paths_BIDS(file_path)
             count = 1
@@ -104,6 +116,8 @@ class SecondWindow(Screen):
         for i in self.buttons:
             i.background_color = [0.8, 0.8, 0.8, 1]
             Onset_Data_List.clear()
+
+        show_popup()
 
 
     def on_enter(self):
