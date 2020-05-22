@@ -4,7 +4,8 @@ from kivy.properties import ObjectProperty
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from kivy.config import Config
-from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary, read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series
+from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary,\
+    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, open_fsl
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
@@ -211,6 +212,12 @@ class Filechoosermask(Screen):
 class TSWindow(Screen):
     def __init__(self, **kwargs):
         super(TSWindow, self).__init__(**kwargs)
+
+
+    def try_sub(self):
+        open_fsl()
+
+
 class WindowManager(ScreenManager):
     pass
 

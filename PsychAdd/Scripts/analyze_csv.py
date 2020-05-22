@@ -132,3 +132,6 @@ def get_paths_BIDS(file_path):
 
 def create_Time_Series(input_file, mask):
     subprocess.call('fslmeants' + ' -i ' + input_file + ' -m ' + mask)
+
+def open_fsl():
+    subprocess.call('fsl')

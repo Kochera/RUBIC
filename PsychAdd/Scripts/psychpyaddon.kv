@@ -232,6 +232,15 @@
                 app.root.current = "main"
                 root.manager.transition.direction = "right"
 
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.03
+            text: "Open FSL"
+            on_release:
+                root.try_sub()
+                app.root.current = "TSW"
+                root.manager.transition.direction = "left"
+
 
 <SecondWindow>:
     name: "second"
