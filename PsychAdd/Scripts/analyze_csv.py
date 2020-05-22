@@ -133,20 +133,25 @@ def create_Time_Series(input_file, mask, num = 0):
 
 
     if mask == "":
-        ts = input_file.split("_")
-        ts = ts[0] + "_" + ts[1]
+        ts = os.path.split(input_file)
+        tsName = ts[len(ts)-1]
+        tsNamesub = tsName.split("_")
+        tsN = tsNamesub[0] + "_" + tsNamesub[1]
+
         if num == 0:
-            TSname = os.path.join("Scripts", "Time_Series", ts + ".txt")
+            TSname = os.path.join("Scripts", "Time_Series", tsN + ".txt")
         else:
-            TSname = os.path.join("Scripts", "Time_Series", ts + str(num) + ".txt")
-        subprocess.call('fslmeants' + ' -i ' + input_file + ' -o ' + TSname)
+            TSname = os.path.join("Scripts", "Time_Series", tsN + str(num) + ".txt")
+        subprocess.call(['fslmeants', '-i', input_file, '-o', TSname])
     else:
-        ts = input_file.split("_")
-        ts = ts[0] + "_" + ts[1]
+        ts = os.path.split(input_file)
+        tsName = ts[len(ts) - 1]
+        tsNamesub = tsName.split("_")
+        tsN = tsNamesub[0] + "_" + tsNamesub[1]
         if num == 0:
-            TSname = os.path.join("Scripts", "Time_Series", ts + ".txt")
+            TSname = os.path.join("Scripts", "Time_Series", tsN + ".txt")
         else:
-            TSname = os.path.join("Scripts", "Time_Series", ts + str(num) + ".txt")
-        subprocess.call('fslmeants' + ' -i ' + input_file + ' -o ' + TSname + ' -m ' + mask)
+            TSname = os.path.join("Scripts", "Time_Series", tsN + str(num) + ".txt")
+        subprocess.call(['fslmeants', '-i', input_file, '-o', TSname, '-m', mask])
 
 
