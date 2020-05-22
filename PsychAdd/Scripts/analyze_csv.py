@@ -81,7 +81,6 @@ def create_onset_file(Onset_Data_Labels, data_dict, start_time, num = 0):
         return -1
     #ind = len( Onset_Data_Labels[start_ind[0]])
     onset = Onset_Data_Labels[start_ind[0]].replace("Start", "")
-    path_add = "Scripts/Onset_Files/"
     #onset_name = Onset_Data_Labels[start_ind[0]][0:ind] + ".txt"
     if num == 0:
         onset_name = os.path.join("Scripts", "Onset_Files", onset+ ".txt")
@@ -130,8 +129,24 @@ def get_paths_BIDS(file_path):
 
     return path_list
 
-def create_Time_Series(input_file, mask):
-    subprocess.call('fslmeants' + ' -i ' + input_file + ' -m ' + mask)
+def create_Time_Series(input_file, mask, num = 0):
 
-def open_fsl():
-    subprocess.call('fsl')
+
+    if mask == "":
+        ts = input_file.split("_")
+        ts = ts[0] + "_" + ts[1]
+        if num == 0:
+            TSname = os.path.join("Scripts", "Time_Series", ts + ".txt")
+        else:
+            TSname = os.path.join("Scripts", "Time_Series", ts + str(num) + ".txt")
+        subprocess.call('fslmeants' + ' -i ' + input_file + ' -o ' + TSname)
+    else:
+        ts = input_file.split("_")
+        ts = ts[0] + "_" + ts[1]
+        if num == 0:
+            TSname = os.path.join("Scripts", "Time_Series", ts + ".txt")
+        else:
+            TSname = os.path.join("Scripts", "Time_Series", ts + str(num) + ".txt")
+        subprocess.call('fslmeants' + ' -i ' + input_file + ' -o ' + TSname + ' -m ' + mask)
+
+
