@@ -14,6 +14,22 @@ def get_headers(df):
         column_list.append(i)
     return column_list
 
+#Split path into all of its parts
+def splitall(path):
+    allparts = []
+    while 1:
+        parts = os.path.split(path)
+        if parts[0] == path:  # sentinel for absolute paths
+            allparts.insert(0, parts[0])
+            break
+        elif parts[1] == path: # sentinel for relative paths
+            allparts.insert(0, parts[1])
+            break
+        else:
+            path = parts[0]
+            allparts.insert(0, parts[1])
+    return allparts
+
 #Find the 5 or t to then find the start time of fMRI Test
 def get_start_time(df):
     found = False
@@ -100,7 +116,7 @@ def create_onset_file(Onset_Data_Labels, data_dict, start_time, num = 0):
 def get_paths_BIDS(file_path):
 
     path_list = []
-    path_split = file_path.split("\\")
+    path_split = splitall(file_path)
     file_name = path_split[len(path_split)-1]
     inner_directory = path_split[len(path_split)-2]
     subject_name = (path_split[len(path_split) - 3])
@@ -112,7 +128,7 @@ def get_paths_BIDS(file_path):
     file_name_beginning = file_name_list[0]
     file_name_repeat = file_name_beginning.split("-")[0]
     file_name_list.remove(file_name_list[0])
-    base_path = "\\".join(path_split)
+    base_path = os.path.join(*path_split)
 
     sub_count = len([name for name in os.listdir(base_path)])-1
     for i in range(1,sub_count+1):
@@ -125,7 +141,8 @@ def get_paths_BIDS(file_path):
     for sub in sub_list:
         file_name = "_".join(file_name_list)
         file_name = sub+"_" + file_name
-        path_list.append(base_path + "\\" + sub + "\\"+inner_directory + "\\" + file_name)
+        path = os.path.join(base_path, sub, inner_directory, file_name)
+        path_list.append(path)
 
     return path_list
 

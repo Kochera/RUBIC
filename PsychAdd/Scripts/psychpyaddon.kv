@@ -159,6 +159,24 @@
                 app.root.current = "filesmask"
                 root.manager.transition.direction = "left"
 
+        CheckBox:
+            id: checkbox
+            pos_hint: {"top": 0.036, "right": .985}
+            size_hint: 0.02, 0.02
+            color: 1, 1, 1, 1
+            canvas.before:
+                Color:
+                    rgb: 1, 1, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            on_active: root.checked(self, self.active)
+
+        Label:
+            pos_hint: {"top": 0.075, "right": 0.79}
+            size_hint: 0.15, 0.1
+            text: "Bash for all Subjects(Works only if in BIDS format)"
+
 
 <Filechoosermask>:
     name: "filesmask"
@@ -174,9 +192,9 @@
             source: "Scripts/Static/Rutgers-RUBIC.gif"
 
         Label:
-            pos_hint: {"right": 0.55, "top":.9}
+            pos_hint: {"right": 0.65, "top":.9}
             size_hint: 0.1, 0.1
-            text: "Select Mask for Time series Extraction"
+            text: "Select Mask for Time series Extraction or click select if no Mask"
 
         BoxLayout:
             FileChooserIconView:
@@ -215,10 +233,13 @@
 
 <TSWindow>:
     name: "TSW"
+    boldData: boldData
+    maskData: maskData
+
     FloatLayout:
         Image:
             pos_hint: {"left": 1, "top":1.05}
-            size_hint: 0.28, 0.28
+            size_hint: 0.4, 0.4
             allow_stretch: False
             keep_ratio: True
             source: "Scripts/Static/Rutgers-RUBIC.gif"
@@ -227,14 +248,48 @@
         Button:
             text: "Go Back"
             pos_hint: {"right": 1, "top": 1}
-            size_hint: 0.1, 0.05
+            size_hint: 0.15, 0.07
             on_release:
                 app.root.current = "main"
                 root.manager.transition.direction = "right"
 
+        Label:
+            pos_hint: {"top": 0.65, "right": 0.57}
+            size_hint: 0.15, 0.1
+            text: "BOLD File"
+
+        # Adding label
+        Label:
+            id: boldData
+            pos_hint: {"top": 0.56, "left": .5}
+            size_hint: 1, .045
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Label:
+            pos_hint: {"top": 0.45, "right": 0.67}
+            size_hint: 0.35, 0.1
+            text: "Mask File (If not selected, will run fslmeants with no specified mask)"
+
+        # Adding label
+        Label:
+            id: maskData
+            pos_hint: {"top": 0.36, "left": .5}
+            size_hint: 1, .045
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
         Button:
             pos_hint: {"top": 0.08, "right": .575}
-            size_hint: 0.15, 0.03
+            size_hint: 0.15, 0.045
             text: "Create TS"
             on_release:
                 root.makeTS()

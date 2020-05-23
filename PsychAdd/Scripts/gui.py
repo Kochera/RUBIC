@@ -9,7 +9,7 @@ from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dic
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
-Config.set('graphics', 'resizable', False)
+
 file_path = ""
 bold_file = ""
 mask_file = ""
@@ -23,10 +23,10 @@ batchts = False
 class P(Screen):
     pass
 
-def show_popup():
+def show_popup(title):
     show = P()
 
-    popupWindow = Popup(title="Onset File Created", content = show, size_hint = (None, None), size= (400,200) )
+    popupWindow = Popup(title=title, content = show, size_hint = (None, None), size= (400,200) )
 
     popupWindow.open()
 
@@ -36,8 +36,10 @@ class MainWindow(Screen):
         super(MainWindow, self).__init__(**kwargs)
 
     def on_pre_enter(self):
+        Config.set('graphics', 'resizable', '0')
+        Config.write()
         Window.size = (250, 500)
-        Config.set('graphics', 'resizable', False)
+
 
 
 
@@ -48,7 +50,7 @@ class Filechooser(Screen):
 
     def on_pre_enter(self):
         Window.size = (700, 700)
-        Config.set('graphics', 'resizable', False)
+
 
 
     def select(self, *args):
@@ -100,6 +102,7 @@ class SecondWindow(Screen):
         global df
         global Data_Dict
         global Onset_Data_List
+        global batch
         if batch == False:
             start_time = get_start_time(df)
             create_onset_file(Onset_Data_List, Data_Dict, start_time)
@@ -118,7 +121,7 @@ class SecondWindow(Screen):
             i.background_color = [0.8, 0.8, 0.8, 1]
             Onset_Data_List.clear()
 
-        show_popup()
+        show_popup("Onset File Created")
 
 
     def on_enter(self):
@@ -153,7 +156,7 @@ class Filechooserbold(Screen):
 
     def on_pre_enter(self):
         Window.size = (700, 700)
-        Config.set('graphics', 'resizable', False)
+
 
     def select(self, *args):
         try:
@@ -184,7 +187,7 @@ class Filechoosermask(Screen):
 
     def on_pre_enter(self):
         Window.size = (700, 700)
-        Config.set('graphics', 'resizable', False)
+
 
     def select(self, *args):
         try:
@@ -192,12 +195,7 @@ class Filechoosermask(Screen):
         except:
             pass
 
-    def checked(self, instance, value):
-        global batchts
-        if value is True:
-            batchts = True
-        else:
-            batchts = False
+
 
     def saveMask(self, instance, mask):
         global mask_file
@@ -208,13 +206,30 @@ class Filechoosermask(Screen):
 class TSWindow(Screen):
     def __init__(self, **kwargs):
         super(TSWindow, self).__init__(**kwargs)
+        self.boldData = ObjectProperty(None)
+        self.maskData = ObjectProperty(None)
+
+    def on_pre_enter(self):
+        Window.size = (500, 400)
 
 
+    def on_enter(self, *args):
+        self.boldData.text = bold_file
+        self.maskData.text = mask_file
     def makeTS(self):
+        global batchts
         global bold_file
         global mask_file
-        create_Time_Series(input_file=bold_file, mask=mask_file)
+        if batchts == False:
+            create_Time_Series(input_file=bold_file, mask=mask_file)
 
+        else:
+            paths = get_paths_BIDS(bold_file)
+            count = 1
+            for i in paths:
+                create_Time_Series(input_file = i, mask=mask_file, num=count)
+                count +=1
+        show_popup("Time Series File(s) Created")
 
 class WindowManager(ScreenManager):
     pass

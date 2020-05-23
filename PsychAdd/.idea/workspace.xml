@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7286657d-81d3-4ca0-abc6-cb60d06fb8f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Scripts/psychpyaddon.kv" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/psychpyaddon.kv" afterDir="false" />
-    </list>
+    <list default="true" id="7286657d-81d3-4ca0-abc6-cb60d06fb8f3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3400">
-              <caret line="210" selection-start-line="210" selection-end-line="210" />
+            <state relative-caret-position="-355">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+            <state relative-caret-position="-14">
+              <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -48,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="237" column="28" selection-start-line="237" selection-start-column="28" selection-end-line="237" selection-end-column="28" />
+            <state relative-caret-position="166">
+              <caret line="273" column="49" selection-start-line="273" selection-start-column="49" selection-end-line="273" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -71,10 +69,12 @@
       <find>path</find>
       <find>Static/</find>
       <find>bold</find>
+      <find>Popup</find>
+      <find>get_paths</find>
+      <find>check</find>
+      <find>batch</find>
+      <find>show_pop</find>
     </findStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Scripts/AnalyzeCSV.py" />
         <option value="$PROJECT_DIR$/Scripts/PsychopyAddon.kv" />
-        <option value="$PROJECT_DIR$/Scripts/gui.py" />
         <option value="$PROJECT_DIR$/Scripts/analyze_csv.py" />
+        <option value="$PROJECT_DIR$/Scripts/gui.py" />
         <option value="$PROJECT_DIR$/Scripts/psychpyaddon.kv" />
       </list>
     </option>
@@ -99,7 +99,6 @@
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -131,7 +130,6 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -264,9 +262,6 @@
       <module name="General_Brain" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -344,12 +339,12 @@
       <workItem from="1590142778884" duration="1569000" />
       <workItem from="1590148905932" duration="5550000" />
       <workItem from="1590165843552" duration="1126000" />
-      <workItem from="1590167097293" duration="29000" />
+      <workItem from="1590212272412" duration="14464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244391000" />
+    <option name="totallyTimeSpent" value="258826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -369,7 +364,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003376" side_tool="true" weight="0.26500732" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.3338214" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33089313" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,10 +531,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/psychpyadd.py" />
-    <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
+    <entry file="file://$PROJECT_DIR$/Scripts/Onset_Files/prime1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
+        <state relative-caret-position="-14">
+          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -553,10 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
+    <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+        <state relative-caret-position="-355">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -565,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="237" column="28" selection-start-line="237" selection-start-column="28" selection-end-line="237" selection-end-column="28" />
+        <state relative-caret-position="166">
+          <caret line="273" column="49" selection-start-line="273" selection-start-column="49" selection-end-line="273" selection-end-column="49" />
         </state>
       </provider>
     </entry>
