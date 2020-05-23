@@ -9,6 +9,7 @@ from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dic
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
+import os
 
 file_path = ""
 bold_file = ""
@@ -222,8 +223,13 @@ class TSWindow(Screen):
 
 
     def on_enter(self, *args):
-        self.boldData.text = bold_file
-        self.maskData.text = mask_file
+        global bold_file
+        global mask_file
+        self.boldData.text = os.path.basename(bold_file)
+        if mask_file != "":
+            self.maskData.text = os.path.basename(mask_file)
+        else:
+            self.maskData.text = mask_file
 
     def makeTS(self):
         global batchts
