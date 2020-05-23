@@ -23,6 +23,8 @@ batchts = False
 class P(Screen):
     pass
 
+class P2(Screen):
+    pass
 def show_popup(title):
     show = P()
 
@@ -30,6 +32,12 @@ def show_popup(title):
 
     popupWindow.open()
 
+def show_popup2(title):
+    show = P2()
+
+    popupWindow = Popup(title=title, content=show, size_hint=(None, None), size=(450, 200))
+
+    popupWindow.open()
 # create the layout class
 class MainWindow(Screen):
     def __init__(self, **kwargs):
@@ -216,6 +224,7 @@ class TSWindow(Screen):
     def on_enter(self, *args):
         self.boldData.text = bold_file
         self.maskData.text = mask_file
+
     def makeTS(self):
         global batchts
         global bold_file
@@ -229,7 +238,7 @@ class TSWindow(Screen):
             for i in paths:
                 create_Time_Series(input_file = i, mask=mask_file, num=count)
                 count +=1
-        show_popup("Time Series File(s) Created")
+        show_popup2("Time Series")
 
 class WindowManager(ScreenManager):
     pass
