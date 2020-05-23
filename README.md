@@ -1,5 +1,5 @@
 # PsychoPy Add-On
-This tool is used to create onset files quickly and easily even being able to create an entire experiments onset files with a single click of a button. It is also used to output the time series using these onset files.
+This tool is used to create onset files quickly and easily even being able to create an entire experiments onset files with a single click of a button so long as the data is organized in the BIDS format. It is also used to output the time series utilizing fslmeants. All onset files are stored in the Onset_Files directory within the project. All of the Time Series are ouputted into files stored in the Time_Series directory in the project. 
 
 ## Installation
 Installing this application has two parts. Installing Kivy, and then all of the other dependecies.
