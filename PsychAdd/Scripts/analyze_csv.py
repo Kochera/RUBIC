@@ -172,13 +172,13 @@ def create_Time_Series(input_file, mask, num = 0):
             TSname = os.path.join("Scripts", "Time_Series", tsN + str(num) + ".txt")
         subprocess.call(['fslmeants', '-i', input_file, '-o', TSname, '-m', mask])
 
-def fslBET(BOLD_path, num = 0):
+def fslBET(BOLD_path,sub_dir, num = 0):
     BOLD = os.path.basename(BOLD_path) + "_brain"
 
     if num == 0:
         BetPath = os.path.join("Scripts", "BET_Files", "BET")
-        subprocess.call(['bet', BOLD_path, BetPath,"-f", 0.5, "-g", 0])
+        subprocess.call(['bet', BOLD_path, BetPath,"-f", "0.5", "-g", "0"])
     else:
-        BetPath = os.path.join("Scripts", "BET_Files", "BET", str(num))
-        subprocess.call(['bet', BOLD_path, BetPath,"-f", 0.5, "-g", 0])
+        BetPath = os.path.join("Scripts", "BET_Files", sub_dir, "BET"+ str(num))
+        subprocess.call(['bet', BOLD_path, BetPath,"-f", "0.5", "-g", "0"])
 

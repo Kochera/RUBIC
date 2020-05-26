@@ -235,7 +235,7 @@ class BETwindow(Screen):
 
             count = 1
             for i in paths:
-                fslBET(i, num=count)
+                fslBET(i,folder_list[count-1], num=count)
                 count += 1
         show_popup2("BET")
 
