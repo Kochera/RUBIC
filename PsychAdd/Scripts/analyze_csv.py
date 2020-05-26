@@ -90,7 +90,7 @@ def determine_start_data(Onset_Data_Labels, data_dict):
 
     return -1
 
-def create_onset_file(Onset_Data_Labels, data_dict, start_time, num = 0):
+def create_onset_file(Onset_Data_Labels, data_dict, start_time, directory= "0", num = 0):
     start_ind = determine_start_data(Onset_Data_Labels, data_dict)
 
     if start_ind == -1:
@@ -101,13 +101,16 @@ def create_onset_file(Onset_Data_Labels, data_dict, start_time, num = 0):
     if num == 0:
         onset_name = os.path.join("Scripts", "Onset_Files", onset+ ".txt")
     else:
-        onset_name = os.path.join("Scripts", "Onset_Files", onset +str(num) + ".txt")
+        if directory != "0":
+            onset_name = os.path.join("Scripts", "Onset_Files", directory, onset +str(num) + ".txt")
+        else:
+            onset_name = os.path.join("Scripts", "Onset_Files", onset + str(num) + ".txt")
     f = open(onset_name, "w")
     count = 0
     for ind in range(len(data_dict[Onset_Data_Labels[start_ind[0]]])):
         if (np.isnan(data_dict[Onset_Data_Labels[start_ind[0]]][ind]) == False):
-            f.write(str(data_dict[Onset_Data_Labels[start_ind[0]]][ind] - start_time) + ", ")
-            f.write(str(start_ind[1][count]) + ", 1\n")
+            f.write(str(data_dict[Onset_Data_Labels[start_ind[0]]][ind] - start_time) + " ")
+            f.write(str(start_ind[1][count]) + " 1\n")
             count+=1
     f.close()
 
@@ -147,8 +150,6 @@ def get_paths_BIDS(file_path):
     return path_list
 
 def create_Time_Series(input_file, mask, num = 0):
-
-
     if mask == "":
         ts = os.path.split(input_file)
         tsName = ts[len(ts)-1]
@@ -171,4 +172,13 @@ def create_Time_Series(input_file, mask, num = 0):
             TSname = os.path.join("Scripts", "Time_Series", tsN + str(num) + ".txt")
         subprocess.call(['fslmeants', '-i', input_file, '-o', TSname, '-m', mask])
 
+def fslBET(BOLD_path, num = 0):
+    BOLD = os.path.basename(BOLD_path) + "_brain"
+
+    if num == 0:
+        BetPath = os.path.join("Scripts", "BET_Files", "BET")
+        subprocess.call(['bet', BOLD_path, BetPath,"-f", 0.5, "-g", 0])
+    else:
+        BetPath = os.path.join("Scripts", "BET_Files", "BET", str(num))
+        subprocess.call(['bet', BOLD_path, BetPath,"-f", 0.5, "-g", 0])
 

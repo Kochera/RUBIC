@@ -5,7 +5,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from kivy.config import Config
 from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary,\
-    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series
+    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
@@ -17,9 +17,11 @@ mask_file = ""
 HEADERS= []
 Onset_Data_List = []
 Data_Dict = {}
+folder_list = []
 df = pd.DataFrame
 batch = False
 batchts = False
+batchBET = False
 
 class P(Screen):
     pass
@@ -112,18 +114,32 @@ class SecondWindow(Screen):
         global Data_Dict
         global Onset_Data_List
         global batch
+        global folder_list
         if batch == False:
             start_time = get_start_time(df)
             create_onset_file(Onset_Data_List, Data_Dict, start_time)
         else:
             paths = get_paths_BIDS(file_path)
+            folder = "subject"
+            sub_num = 1
+            for i in range(len(paths)):
+                folder_name = folder + str(sub_num)
+                folder_path = os.path.join("Scripts", "Onset_Files", folder_name)
+                if os.path.exists(folder_path):
+                    folder_list.append(folder_name)
+                    sub_num +=1
+                else:
+                    os.mkdir(folder_path)
+                    folder_list.append(folder_name)
+                    sub_num += 1
+
             count = 1
             for i in paths:
                 df = read_csv(i)
                 cols = get_headers(df)
                 Data_Dict = create_data_dictionary(df=df, data_labels=cols)
                 start_time = get_start_time(df)
-                create_onset_file(Onset_Data_List, Data_Dict, start_time, count)
+                create_onset_file(Onset_Data_List, Data_Dict, start_time,folder_list[count-1], count)
                 count += 1
 
         for i in self.buttons:
@@ -174,18 +190,54 @@ class Filechooserbold(Screen):
             pass
 
     def checked(self, instance, value):
-        global batchts
+        global batchBET
         if value is True:
-            batchts = True
+            batchBET = True
         else:
-            batchts = False
+            batchBET = False
 
     def saveBold(self, instance, bold):
         global bold_file
         bold_file = bold.text
         return bold_file
 
+class BETwindow(Screen):
+    def __init__(self, **kwargs):
+        super(BETwindow, self).__init__(**kwargs)
+        self.boldData = ObjectProperty(None)
 
+    def on_pre_enter(self):
+        Window.size = (500, 300)
+
+    def on_enter(self, *args):
+        global bold_file
+        self.boldData.text = os.path.basename(bold_file)
+
+    def makeBET(self):
+        global batchBET
+        global bold_file
+        if batchBET == False:
+            fslBET(bold_file, 0)
+        else:
+            paths = get_paths_BIDS(bold_file)
+            folder = "subject"
+            sub_num = 1
+            for i in range(len(paths)):
+                folder_name = folder + str(sub_num)
+                folder_path = os.path.join("Scripts", "BET_Files", folder_name)
+                if os.path.exists(folder_path):
+                    folder_list.append(folder_name)
+                    sub_num += 1
+                else:
+                    os.mkdir(folder_path)
+                    folder_list.append(folder_name)
+                    sub_num += 1
+
+            count = 1
+            for i in paths:
+                fslBET(i, num=count)
+                count += 1
+        show_popup2("BET")
 
 
 class Filechoosermask(Screen):
