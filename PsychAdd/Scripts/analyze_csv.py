@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import subprocess
+import fileinput
 import os.path
 
 def read_csv(file):
@@ -182,3 +183,35 @@ def fslBET(BOLD_path,sub_dir, num = 0):
         BetPath = os.path.join("Scripts", "BET_Files", sub_dir, "BET"+ str(num))
         subprocess.call(['bet', BOLD_path, BetPath,"-f", "0.5", "-g", "0"])
 
+
+def edit_run_fsf(fsf, boldList, bet, onset):
+    base = os.path.basename(fsf)
+    subprocess.call(['cp', fsf, os.path.join("Scripts", "fsf_File")])
+    fsf_path = os.path.join("Scripts", "fsf_File", base)
+
+    count = 0
+    count_onset = 1
+    for bold in boldList:
+        file= fileinput.FileInput(fsf_path, inplace=True, backup='.bak')
+        for line in file:
+            if("set fmri(outputdir)" in line):
+
+                line = "set fmri(outputdir) "+ os.path.join("Scripts", "FEAT", "subject" + str(count+1))
+                print(line)
+            if("set feat_files(1)" in line):
+                line = "set feat_files(1) " + bold
+                print(line)
+            if("set highres_files(1)" in line):
+                line = "set highres_files(1) " + bet[count]
+                print(line)
+
+            for i in onset[count]:
+                if("set fmri(custom"+str(count_onset) +")" in line):
+                    line = "set fmri(custom" + str(count_onset) + ") " + i
+                    count_onset +=1
+                    print(line)
+
+            count_onset = 1
+
+        count +=1
+        subprocess.call(['feat', fsf_path])

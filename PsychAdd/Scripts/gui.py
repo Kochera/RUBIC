@@ -5,7 +5,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from kivy.config import Config
 from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary,\
-    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET
+    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET, edit_run_fsf
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
@@ -13,7 +13,9 @@ import os
 
 file_path = ""
 bold_file = ""
+fsf_file = ""
 mask_file = ""
+all_bolds = []
 HEADERS= []
 Onset_Data_List = []
 Data_Dict = {}
@@ -28,6 +30,9 @@ class P(Screen):
 
 class P2(Screen):
     pass
+
+class P3(Screen):
+    pass
 def show_popup(title):
     show = P()
 
@@ -36,6 +41,13 @@ def show_popup(title):
     popupWindow.open()
 
 def show_popup2(title):
+    show = P2()
+
+    popupWindow = Popup(title=title, content=show, size_hint=(None, None), size=(450, 200))
+
+    popupWindow.open()
+
+def show_popup3(title):
     show = P2()
 
     popupWindow = Popup(title=title, content=show, size_hint=(None, None), size=(450, 200))
@@ -216,10 +228,12 @@ class BETwindow(Screen):
     def makeBET(self):
         global batchBET
         global bold_file
+        global all_bolds
         if batchBET == False:
             fslBET(bold_file, 0)
         else:
             paths = get_paths_BIDS(bold_file)
+            all_bolds = paths
             folder = "subject"
             sub_num = 1
             for i in range(len(paths)):
@@ -238,6 +252,59 @@ class BETwindow(Screen):
                 fslBET(i,folder_list[count-1], num=count)
                 count += 1
         show_popup2("BET")
+
+class Filechooserfsf(Screen):
+    def __init__(self, **kwargs):
+        super(Filechooserfsf, self).__init__(**kwargs)
+        self.fsf = ObjectProperty(None)
+
+
+    def on_pre_enter(self):
+        Window.size = (700, 700)
+
+
+    def select(self, *args):
+        try:
+            self.fsf.text = args[1][0]
+        except:
+            pass
+
+
+    def savefsf(self, instance, fsf):
+        global fsf_file
+        fsf_file = fsf.text
+        return fsf_file
+
+class FEATWindow(Screen):
+    def __init__(self, **kwargs):
+        super(FEATWindow, self).__init__(**kwargs)
+
+    def on_pre_enter(self):
+        Window.size = (500, 400)
+
+
+    def make_Feat(self):
+        global fsf_file
+        global all_bolds
+
+        subjectsBET = os.listdir(os.path.join("Scripts", "BET_Files"))
+        bets = []
+        betcount = 1
+        for i in subjectsBET:
+            bets.append(os.path.join("Scripts", "BET_Files", "subject"+str(betcount), "BET" + str(betcount)))
+
+        subjectsOnset = os.listdir(os.path.join("Scripts", "Onset_Files"))
+        onset_lists = []
+
+        for j in subjectsOnset:
+            onset_lists.append(os.listdir(os.path.join("Scripts", "Onset_Files", j)))
+
+
+        edit_run_fsf(fsf_file, all_bolds, bets, onset_lists)
+
+        show_popup3("FEAT Finished")
+
+
 
 
 class Filechoosermask(Screen):
@@ -262,7 +329,6 @@ class Filechoosermask(Screen):
         global mask_file
         mask_file = mask.text
         return mask_file
-
 
 class TSWindow(Screen):
     def __init__(self, **kwargs):

@@ -5,6 +5,8 @@
     Filechooser:
     Filechooserbold:
     BETwindow:
+    Filechooserfsf:
+    FEATWindow:
     Filechoosermask:
     TSWindow:
 
@@ -39,6 +41,30 @@
         Button:
             size_hint: 0.75, 0.05
             pos_hint: {"x":0.125, "top":0.58}
+            text: "FEAT Analysis"
+            on_release:
+                app.root.current = "filesfsf"
+                root.manager.transition.direction = "right"
+
+        Button:
+            size_hint: 0.75, 0.05
+            pos_hint: {"x":0.125, "top":0.51}
+            text: "Group FEAT"
+            on_release:
+                app.root.current = "filesbold"
+                root.manager.transition.direction = "right"
+
+        Button:
+            size_hint: 0.75, 0.05
+            pos_hint: {"x":0.125, "top":0.44}
+            text: "Organize Subject Files"
+            on_release:
+                app.root.current = "filesbold"
+                root.manager.transition.direction = "right"
+
+        Button:
+            size_hint: 0.75, 0.05
+            pos_hint: {"x":0.125, "top":0.37}
             text: "Time-Series Extractor"
             on_release:
                 app.root.current = "filesbold"
@@ -204,6 +230,163 @@
                 root.manager.transition.direction = "right"
 
 
+<BETwindow>:
+    name: "BET"
+    boldData: boldData
+
+    FloatLayout:
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.4, 0.4
+            allow_stretch: False
+            keep_ratio: True
+            source: "Scripts/Static/Rutgers-RUBIC.gif"
+
+
+
+
+        Label:
+            pos_hint: {"top": 0.65, "right": 0.57}
+            size_hint: 0.15, 0.1
+            text: "BOLD File"
+
+        # Adding label
+        Label:
+            id: boldData
+            pos_hint: {"top": 0.56, "left": .5}
+            size_hint: 1, .045
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.045
+            text: "Run BET"
+            on_release:
+                root.makeBET()
+                app.root.current = "BET"
+                root.manager.transition.direction = "left"
+
+        Button:
+            text: "Go Back"
+            pos_hint: {"right": 1, "top": 1}
+            size_hint: 0.1, 0.05
+            on_release:
+                app.root.current = "filesbold"
+                root.manager.transition.direction = "right"
+
+
+<Filechooserfsf>:
+    name: "filesfsf"
+    fsf: fsf
+
+    FloatLayout:
+
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.28, 0.28
+            allow_stretch: False
+            keep_ratio: True
+            source: "Scripts/Static/Rutgers-RUBIC.gif"
+
+        Label:
+            pos_hint: {"right": 0.55, "top":.9}
+            size_hint: 0.1, 0.1
+            text: "Select fsf to run FEAT over all subjects"
+
+        BoxLayout:
+            FileChooserIconView:
+                pos_hint: { "top":.78}
+                size_hint: 1, 0.65
+                canvas.before:
+                    Color:
+                        rgba: .66, .66, .66, .66
+                    Rectangle:
+                        pos: 0, 0
+                        size: self.size
+                on_selection: root.select(*args)
+
+        # Adding label
+        Label:
+            id: fsf
+            pos_hint: {"top": 0.12, "left": .5}
+            size_hint: 1, .03
+            canvas.before:
+                Color:
+                    rgba: .66, .66, .66, .66
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.03
+            text: "Select"
+            on_release:
+                root.savefsf(self, fsf)
+                app.root.current = "FEAT"
+                root.manager.transition.direction = "left"
+
+        Button:
+            text: "Go Back"
+            pos_hint: {"right": 1, "top": 1}
+            size_hint: 0.1, 0.05
+            on_release:
+                app.root.current = "main"
+                root.manager.transition.direction = "right"
+
+
+<FEATWindow>:
+    name: "FEAT"
+
+
+    FloatLayout:
+        Image:
+            pos_hint: {"left": 1, "top":1.05}
+            size_hint: 0.4, 0.4
+            allow_stretch: False
+            keep_ratio: True
+            source: "Scripts/Static/Rutgers-RUBIC.gif"
+
+
+        Label:
+            pos_hint: {"top": 0.65, "right": 0.57}
+            size_hint: 0.15, 0.1
+            text: "This will run FEAT for all the subjects that have been analyzed thus far."
+
+        Label:
+            pos_hint: {"top": 0.6, "right": 0.57}
+            size_hint: 0.15, 0.1
+            text: "Once a popup shows up, all FEAT's will be done running."
+
+        Label:
+            pos_hint: {"top": 0.55, "right": 0.57}
+            size_hint: 0.15, 0.1
+            text: "They can be found in Scripts/FEAT"
+
+        Button:
+            pos_hint: {"top": 0.08, "right": .575}
+            size_hint: 0.15, 0.045
+            text: "Run FEAT"
+            on_release:
+                root.makeFEAT()
+                app.root.current = "FEAT"
+                root.manager.transition.direction = "left"
+
+        Button:
+            text: "Go Back"
+            pos_hint: {"right": 1, "top": 1}
+            size_hint: 0.15, 0.07
+            on_release:
+                app.root.current = "filesfsf"
+                root.manager.transition.direction = "right"
+
+
 <Filechoosermask>:
     name: "filesmask"
     mask: mask
@@ -255,55 +438,6 @@
                 app.root.current = "TSW"
                 root.manager.transition.direction = "left"
 
-<BETwindow>:
-    name: "BET"
-    boldData: boldData
-
-    FloatLayout:
-        Image:
-            pos_hint: {"left": 1, "top":1.05}
-            size_hint: 0.4, 0.4
-            allow_stretch: False
-            keep_ratio: True
-            source: "Scripts/Static/Rutgers-RUBIC.gif"
-
-
-
-
-        Label:
-            pos_hint: {"top": 0.65, "right": 0.57}
-            size_hint: 0.15, 0.1
-            text: "BOLD File"
-
-        # Adding label
-        Label:
-            id: boldData
-            pos_hint: {"top": 0.56, "left": .5}
-            size_hint: 1, .045
-            canvas.before:
-                Color:
-                    rgba: .66, .66, .66, .66
-                Rectangle:
-                    pos: self.pos
-                    size: self.size
-
-
-        Button:
-            pos_hint: {"top": 0.08, "right": .575}
-            size_hint: 0.15, 0.045
-            text: "Create TS"
-            on_release:
-                root.makeBET()
-                app.root.current = "BET"
-                root.manager.transition.direction = "left"
-
-        Button:
-            text: "Go Back"
-            pos_hint: {"right": 1, "top": 1}
-            size_hint: 0.1, 0.05
-            on_release:
-                app.root.current = "filesbold"
-                root.manager.transition.direction = "right"
 
 
 <TSWindow>:
@@ -406,5 +540,12 @@
 <P2>:
     Label:
         text: "The BET was successful. Files can be found in Scripts/BET_Files"
+        size_hint: 0.6, 0.2
+        pos_hint: {"right": 0.8, "top": 0.7}
+
+
+<P3>:
+    Label:
+        text: "The FEAT was successful. Files can be found in Scripts/FEAT_Files"
         size_hint: 0.6, 0.2
         pos_hint: {"right": 0.8, "top": 0.7}

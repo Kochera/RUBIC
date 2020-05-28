@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="237" column="46" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
+            <state relative-caret-position="2040">
+              <caret line="300" selection-start-line="300" selection-end-line="300" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="267">
+              <caret line="198" column="84" lean-forward="true" selection-start-line="198" selection-start-column="84" selection-end-line="198" selection-end-column="84" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -46,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="270" selection-start-line="270" selection-end-line="270" />
+            <state relative-caret-position="13">
+              <caret line="367" column="34" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -97,8 +97,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-15" />
-    <option name="width" value="1948" />
+    <option name="x" value="10" />
+    <option name="y" value="25" />
+    <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
@@ -106,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,10 +119,17 @@
               <item name="PsychAdd" type="462c0819:PsiDirectoryNode" />
               <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PsychAdd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PsychAdd" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Onset_Files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,16 +346,17 @@
       <workItem from="1590231673106" duration="3107000" />
       <workItem from="1590411822009" duration="20685000" />
       <workItem from="1590484055013" duration="3331000" />
+      <workItem from="1590663076756" duration="14968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285949000" />
+    <option name="totallyTimeSpent" value="300917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="779" height="830" extended-state="0" />
+    <frame x="4" y="10" width="780" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.33192685" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.24719101" />
       <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.23595506" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,13 +371,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003376" side_tool="true" weight="0.26500732" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33431953" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33431953" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="144" height="630" id="Documentation" order="5" side_tool="true" weight="0.31741574" />
+      <window_info anchor="right" x="0" y="0" width="144" height="630" id="Documentation" order="5" side_tool="true" weight="0.46488765" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,13 +542,6 @@
     <entry file="file://$PROJECT_DIR$/Scripts/Onset_Files/subject1/choose1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="270" selection-start-line="270" selection-end-line="270" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -548,10 +549,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="367" column="34" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="267">
+          <caret line="198" column="84" lean-forward="true" selection-start-line="198" selection-start-column="84" selection-end-line="198" selection-end-column="84" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -560,8 +568,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="237" column="46" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
+        <state relative-caret-position="2040">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
