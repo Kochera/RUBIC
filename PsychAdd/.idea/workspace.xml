@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1122">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -349,16 +349,15 @@
       <workItem from="1590411822009" duration="20685000" />
       <workItem from="1590484055013" duration="3331000" />
       <workItem from="1590663076756" duration="14968000" />
-      <workItem from="1590731077556" duration="6095000" />
+      <workItem from="1590731077556" duration="6125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307012000" />
+    <option name="totallyTimeSpent" value="307042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.122889936" />
       <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.23595506" />
@@ -576,7 +575,7 @@
     <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1122">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
