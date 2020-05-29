@@ -48,7 +48,7 @@ def show_popup2(title):
     popupWindow.open()
 
 def show_popup3(title):
-    show = P2()
+    show = P3()
 
     popupWindow = Popup(title=title, content=show, size_hint=(None, None), size=(450, 200))
 
@@ -253,6 +253,8 @@ class BETwindow(Screen):
                 count += 1
         show_popup2("BET")
 
+
+
 class Filechooserfsf(Screen):
     def __init__(self, **kwargs):
         super(Filechooserfsf, self).__init__(**kwargs)
@@ -283,7 +285,7 @@ class FEATWindow(Screen):
         Window.size = (500, 400)
 
 
-    def make_Feat(self):
+    def make_FEAT(self):
         global fsf_file
         global all_bolds
 

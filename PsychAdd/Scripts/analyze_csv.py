@@ -190,28 +190,39 @@ def edit_run_fsf(fsf, boldList, bet, onset):
     fsf_path = os.path.join("Scripts", "fsf_File", base)
 
     count = 0
-    count_onset = 1
     for bold in boldList:
-        file= fileinput.FileInput(fsf_path, inplace=True, backup='.bak')
+        file= fileinput.FileInput(fsf_path, inplace=True)
         for line in file:
             if("set fmri(outputdir)" in line):
-
                 line = "set fmri(outputdir) "+ os.path.join("Scripts", "FEAT", "subject" + str(count+1))
-                print(line)
+            print(line, end = "")
+            if ("set fmri(outputdir)" in line):
+                print()
+        file.close()
+        file= fileinput.FileInput(fsf_path, inplace=True)
+        for line in file:
             if("set feat_files(1)" in line):
                 line = "set feat_files(1) " + bold
-                print(line)
+            print(line, end="")
+            if ("set feat_files(1)" in line):
+                print()
+        file.close()
+        file = fileinput.FileInput(fsf_path, inplace=True)
+        for line in file:
             if("set highres_files(1)" in line):
                 line = "set highres_files(1) " + bet[count]
-                print(line)
+            print(line, end = "")
+            if ("set highres_files(1)" in line):
+                print()
 
-            for i in onset[count]:
-                if("set fmri(custom"+str(count_onset) +")" in line):
-                    line = "set fmri(custom" + str(count_onset) + ") " + i
-                    count_onset +=1
+        file.close()
+        file = fileinput.FileInput(fsf_path, inplace=True)
+        for line in file:
+            for i in range(onset[count]):
+                if("set fmri(custom"+str(i+1) +")" in line):
+                    line = "set fmri(custom" + str(i+1) + ") " + onset[i]
                     print(line)
 
-            count_onset = 1
-
+        file.close()
         count +=1
         subprocess.call(['feat', fsf_path])
