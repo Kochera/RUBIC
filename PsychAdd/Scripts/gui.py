@@ -294,12 +294,21 @@ class FEATWindow(Screen):
         betcount = 1
         for i in subjectsBET:
             bets.append(os.path.join("Scripts", "BET_Files", "subject"+str(betcount), "BET" + str(betcount)))
-
+            betcount+=1
         subjectsOnset = listdir_nohidden(os.path.join("Scripts", "Onset_Files"))
         onset_lists = []
 
         for j in subjectsOnset:
             onset_lists.append(listdir_nohidden(os.path.join("Scripts", "Onset_Files", j)))
+
+
+        for z in range(len(onset_lists)):
+            sub = "subject" + str(z+1)
+            baseOnset = os.path.join("Scripts", "Onset_Files", sub)
+            for j in range(len(onset_lists[z])):
+                curr = onset_lists[z][j]
+                onset_lists[z][j] = os.path.join(baseOnset, curr)
+
 
 
         edit_run_fsf(fsf_file, all_bolds, bets, onset_lists)

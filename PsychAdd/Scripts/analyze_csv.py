@@ -33,9 +33,11 @@ def splitall(path):
 
 
 def listdir_nohidden(path):
+    listdir = []
     for f in os.listdir(path):
         if not f.startswith('.'):
-            yield f
+            listdir.append(f)
+    return listdir
 
 #Find the 5 or t to then find the start time of fMRI Test
 def get_start_time(df):
@@ -190,45 +192,65 @@ def fslBET(BOLD_path,sub_dir, num = 0):
         subprocess.call(['bet', BOLD_path, BetPath,"-f", "0.5", "-g", "0"])
 
 
-def edit_run_fsf(fsf, boldList, bet, onset):
-    base = os.path.basename(fsf)
-    subprocess.call(['cp', fsf, os.path.join("Scripts", "fsf_File")])
-    fsf_path = os.path.join("Scripts", "fsf_File", base)
+def edit_run_fsf(fsfin, boldList, bet, onset):
+    for i in range(len(boldList)):
+        base = os.path.basename(fsfin)
+        subprocess.call(['cp', fsfin, os.path.join("Scripts", "fsf_File")])
+        fsf = os.path.join("Scripts", "fsf_File", base)
+        base_sep = base.split('.')
+        base_sep[0] = base_sep[0] + str(i+1)
+        base_new = '.'.join(base_sep)
+        subprocess.call(['mv', fsf, os.path.join("Scripts", 'fsf_File', base_new)])
+
+    list_fsf_paths = listdir_nohidden(os.path.join("Scripts", "fsf_File"))
+    list_fsf = []
+    for i in list_fsf_paths:
+        list_fsf.append(os.path.join("Scripts", "fsf_File", i))
+    list_fsf.sort()
 
     count = 0
-    for bold in boldList:
-        file= fileinput.FileInput(fsf_path, inplace=True)
+
+    for fsf_path in list_fsf:
+        file= fileinput.input(fsf_path, inplace=True)
         for line in file:
             if("set fmri(outputdir)" in line):
-                line = "set fmri(outputdir) "+ os.path.join("Scripts", "FEAT", "subject" + str(count+1))
+                direct = os.path.join("Scripts", "FEAT", "subject" + str(count+1))
+                direct_abs = os.path.abspath(direct)
+                line = "set fmri(outputdir) "+ '"' + direct_abs + '"'
             print(line, end = "")
             if ("set fmri(outputdir)" in line):
                 print()
         file.close()
-        file= fileinput.FileInput(fsf_path, inplace=True)
+        file= fileinput.input(fsf_path, inplace=True)
         for line in file:
             if("set feat_files(1)" in line):
-                line = "set feat_files(1) " + bold
+                bold_no_nii = boldList[count].split(".")
+                line = "set feat_files(1) " + '"' + bold_no_nii[0] + '"'
             print(line, end="")
             if ("set feat_files(1)" in line):
                 print()
         file.close()
-        file = fileinput.FileInput(fsf_path, inplace=True)
+        file = fileinput.input(fsf_path, inplace=True)
         for line in file:
             if("set highres_files(1)" in line):
-                line = "set highres_files(1) " + bet[count]
+                direct_abs = os.path.abspath(bet[count])
+                line = "set highres_files(1) " + '"' + direct_abs +'"'
             print(line, end = "")
             if ("set highres_files(1)" in line):
                 print()
 
         file.close()
-        file = fileinput.FileInput(fsf_path, inplace=True)
+        file = fileinput.input(fsf_path, inplace=True)
         for line in file:
-            for i in range(onset[count]):
+            for i in range(len(onset[count])):
                 if("set fmri(custom"+str(i+1) +")" in line):
-                    line = "set fmri(custom" + str(i+1) + ") " + onset[i]
-                    print(line)
+                    direct_abs = os.path.abspath(str(onset[count][i]))
+                    line = "set fmri(custom" + str(i+1) + ") " + '"' + direct_abs + '"'
+            print(line, end = "")
 
         file.close()
         count +=1
-        subprocess.call(['feat', fsf_path])
+
+    for fsf_path in list_fsf:
+        path = os.path.abspath(fsf_path)
+        subprocess.call(['feat', path])
