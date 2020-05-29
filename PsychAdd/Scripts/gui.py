@@ -5,7 +5,7 @@ from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.button import Button
 from kivy.config import Config
 from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary,\
-    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET, edit_run_fsf
+    read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET, edit_run_fsf, listdir_nohidden
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
@@ -289,17 +289,17 @@ class FEATWindow(Screen):
         global fsf_file
         global all_bolds
 
-        subjectsBET = os.listdir(os.path.join("Scripts", "BET_Files"))
+        subjectsBET = listdir_nohidden(os.path.join("Scripts", "BET_Files"))
         bets = []
         betcount = 1
         for i in subjectsBET:
             bets.append(os.path.join("Scripts", "BET_Files", "subject"+str(betcount), "BET" + str(betcount)))
 
-        subjectsOnset = os.listdir(os.path.join("Scripts", "Onset_Files"))
+        subjectsOnset = listdir_nohidden(os.path.join("Scripts", "Onset_Files"))
         onset_lists = []
 
         for j in subjectsOnset:
-            onset_lists.append(os.listdir(os.path.join("Scripts", "Onset_Files", j)))
+            onset_lists.append(listdir_nohidden(os.path.join("Scripts", "Onset_Files", j)))
 
 
         edit_run_fsf(fsf_file, all_bolds, bets, onset_lists)

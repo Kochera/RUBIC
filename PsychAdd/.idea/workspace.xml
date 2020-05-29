@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="255" selection-start-line="255" selection-end-line="255" />
+            <state relative-caret-position="154">
+              <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -22,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="226" column="17" lean-forward="true" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
+            <state relative-caret-position="360">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1122">
+            <state relative-caret-position="17">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -76,6 +76,7 @@
       <find>show_pop</find>
       <find>make_On</find>
       <find>&quot;,</find>
+      <find>listdir</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -90,15 +91,15 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/Scripts/AnalyzeCSV.py" />
         <option value="$PROJECT_DIR$/Scripts/PsychopyAddon.kv" />
+        <option value="$PROJECT_DIR$/Scripts/psychpyaddon.kv" />
         <option value="$PROJECT_DIR$/Scripts/analyze_csv.py" />
         <option value="$PROJECT_DIR$/Scripts/gui.py" />
-        <option value="$PROJECT_DIR$/Scripts/psychpyaddon.kv" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
-    <option name="width" value="1948" />
+    <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
   <component name="ProjectView">
@@ -350,16 +351,17 @@
       <workItem from="1590484055013" duration="3331000" />
       <workItem from="1590663076756" duration="14968000" />
       <workItem from="1590731077556" duration="6125000" />
+      <workItem from="1590740640891" duration="568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307042000" />
+    <option name="totallyTimeSpent" value="307610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.122889936" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49871466" visible="true" weight="0.1249156" />
       <window_info id="Structure" order="1" sideWeight="0.5012854" side_tool="true" weight="0.23595506" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -380,7 +382,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="144" height="630" id="Documentation" order="5" side_tool="true" weight="0.14064698" />
+      <window_info anchor="right" x="0" y="0" width="144" height="630" id="Documentation" order="5" side_tool="true" visible="true" weight="0.14044565" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,30 +554,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
+    <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="226" column="17" lean-forward="true" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        <state relative-caret-position="154">
+          <caret line="303" lean-forward="true" selection-start-line="303" selection-end-line="303" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts/psychpyaddon.kv">
+    <entry file="file://$PROJECT_DIR$/Scripts/analyze_csv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="360">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

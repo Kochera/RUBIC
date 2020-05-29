@@ -31,6 +31,12 @@ def splitall(path):
             allparts.insert(0, parts[1])
     return allparts
 
+
+def listdir_nohidden(path):
+    for f in os.listdir(path):
+        if not f.startswith('.'):
+            yield f
+
 #Find the 5 or t to then find the start time of fMRI Test
 def get_start_time(df):
     found = False
