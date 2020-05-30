@@ -247,9 +247,9 @@ def edit_run_fsf(fsfin, boldList, bet, onset):
             for i in range(len(onset[count])):
                 if ("set fmri(evtitle" + str(i + 1) + ")" in line):
                     direct_abs = os.path.abspath(str(onset[count][i]))
-                    base = os.path.basename(direct_abs)
+                    base = os.path.basename(onset[count][i])
                     base_name = base.split('.')
-                    line = "set fmri(custom" + str(i + 1) + ") " + '"' + str(base_name[0]) + '"'
+                    line = "set fmri(evtitle" + str(i + 1) + ") " + '"' + base_name + '"'
             print(line, end="")
 
         file.close()
@@ -274,7 +274,7 @@ def output_final():
     os.mkdir("Data")
     for i in listdir_nohidden(os.path.join("Scripts", "Onset_Files")):
         file_onset = os.path.join("Scripts", "Onset_Files", i)
-        subprocess.call(['cp', file_onset, os.path.join("Data")])
+        subprocess.call(['cp', '-avr', file_onset, os.path.join("Data")])
 
     count =1
     for i in listdir_nohidden(os.path.join("Scripts", "BET_Files")):
@@ -284,9 +284,12 @@ def output_final():
         count +=1
 
     count = 1
-    for i in listdir_nohidden(os.path.join("Scripts", "FEAT")):
+    feat_list = listdir_nohidden(os.path.join("Scripts", "FEAT"))
+    feat_list.sort()
+    for i in feat_list:
         feat_file = os.path.join("Scripts", "FEAT", i)
-        subprocess.call(['cp', feat_file, os.path.join("Data", "subject" + str(count))])
+        subprocess.call(['cp', '-avr', feat_file, os.path.join("Data", "subject" + str(count))])
+        count +=1
 
 def delete_data():
     for i in listdir_nohidden(os.path.join("Scripts", "Onset_Files")):
@@ -299,4 +302,8 @@ def delete_data():
 
     for i in listdir_nohidden(os.path.join("Scripts", "FEAT")):
         feat_file = os.path.join("Scripts", "FEAT", i)
-        subprocess.call(['rm', feat_file])
+        subprocess.call(['rm', '-r', feat_file])
+
+    for i in listdir_nohidden(os.path.join("Scripts", "fsf_File")):
+        fsf_file = os.path.join("Scripts", "fsf_File", i)
+        subprocess.call(['rm', fsf_file])
