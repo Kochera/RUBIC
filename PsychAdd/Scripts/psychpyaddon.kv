@@ -23,53 +23,45 @@
             source: "Scripts/Static/Rutgers-RUBIC.gif"
 
         Button:
-            size_hint: 0.75, 0.05
-            pos_hint: {"x":0.125, "top":0.72}
+            size_hint: 0.75, 0.06
+            pos_hint: {"x":0.125, "top":0.68}
             text: "Create Onset Files"
             on_release:
                 app.root.current = "files"
                 root.manager.transition.direction = "right"
 
         Button:
-            size_hint: 0.75, 0.05
-            pos_hint: {"x":0.125, "top":0.65}
-            text: "BET Extraction"
+            size_hint: 0.75, 0.06
+            pos_hint: {"x":0.125, "top":0.60}
+            text: "BET BIDS"
             on_release:
                 app.root.current = "filesbold"
                 root.manager.transition.direction = "right"
 
 
         Button:
-            size_hint: 0.75, 0.05
-            pos_hint: {"x":0.125, "top":0.58}
+            size_hint: 0.75, 0.06
+            pos_hint: {"x":0.125, "top":0.52}
             text: "FEAT Analysis"
             on_release:
                 app.root.current = "filesfsf"
                 root.manager.transition.direction = "right"
 
-        Button:
-            size_hint: 0.75, 0.05
-            pos_hint: {"x":0.125, "top":0.51}
-            text: "Group FEAT"
-            on_release:
-                app.root.current = "filesbold"
-                root.manager.transition.direction = "right"
 
         Button:
-            size_hint: 0.75, 0.05
+            size_hint: 0.75, 0.06
             pos_hint: {"x":0.125, "top":0.44}
             text: "Organize Subject Files"
             on_release:
-                app.root.current = "filesbold"
-                root.manager.transition.direction = "right"
+                root.organize_data()
 
         Button:
-            size_hint: 0.75, 0.05
-            pos_hint: {"x":0.125, "top":0.37}
-            text: "Time-Series Extractor"
+            size_hint: 0.75, 0.06
+            pos_hint: {"x":0.125, "top":0.36}
+            text: "Clear Experiment"
             on_release:
-                app.root.current = "filesbold"
-                root.manager.transition.direction = "right"
+                root.clear_data()
+
 
 
 
