@@ -125,6 +125,16 @@ def create_onset_file(Onset_Data_Labels, data_dict, start_time, directory= "0", 
 
     return 0
 
+def get_all_CSV(file_path):
+    direct = os.path.dirname(file_path)
+    csv_list= [x for x in os.listdir(direct) if x.endswith('.csv')]
+    full_paths_csv = []
+    for i in csv_list:
+        path = os.path.join(direct, i)
+        full_paths_csv.append(path)
+    full_paths_csv.sort()
+    return full_paths_csv
+
 def get_paths_BIDS(file_path):
 
     path_list = []
@@ -142,7 +152,7 @@ def get_paths_BIDS(file_path):
     file_name_list.remove(file_name_list[0])
     base_path = os.path.join(*path_split)
 
-    sub_count = len([name for name in os.listdir(base_path)])-1
+    sub_count = len([name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))])-1
     for i in range(1,sub_count+1):
         if i < 10:
             sub_list.append(file_name_repeat+ "-0"+str(i))

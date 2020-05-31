@@ -6,7 +6,7 @@ from kivy.uix.button import Button
 from kivy.config import Config
 from Scripts.analyze_csv import get_headers, remove_string_data, create_data_dictionary,\
     read_csv, create_onset_file, get_start_time, get_paths_BIDS, create_Time_Series, fslBET, edit_run_fsf,\
-    listdir_nohidden, output_final, delete_data
+    listdir_nohidden, output_final, delete_data, get_all_CSV
 from kivy.core.window import Window
 from kivy.uix.popup import Popup
 from kivy.uix.floatlayout import FloatLayout
@@ -136,7 +136,7 @@ class SecondWindow(Screen):
             start_time = get_start_time(df)
             create_onset_file(Onset_Data_List, Data_Dict, start_time)
         else:
-            paths = get_paths_BIDS(file_path)
+            paths = get_all_CSV(file_path)
             folder = "subject"
             sub_num = 1
             for i in range(len(paths)):
