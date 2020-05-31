@@ -1,5 +1,5 @@
 # PsychoPy Add-On
-This tool is used to create onset files quickly and easily even being able to create an entire experiments onset files with a single click of a button so long as the data is organized in the BIDS format. It is also used to output the time series utilizing fslmeants. All onset files are stored in the Onset_Files directory within the project. All of the Time Series are ouputted into files stored in the Time_Series directory in the project. 
+This tool is most useful if the data is organized in BIDS Format. It quickly and easily produces onset files even being able to create an entire experiments onset files with a single click of a button. It can also perform a batch BET Extraction and batch FEAT analysis on all subjects in an experiment but only if they are organized in the BIDS Format. The FEAT analysis utilizes fsl and requires an fsf file with the same number on EV's to run properly. Then all of the data is organized nicely into the Data directory that gets outputted by the end of running the tool.
 
 ## Installation
 Installing this application has two parts. Installing Kivy, and then all of the other dependecies.
@@ -33,6 +33,9 @@ To install all of the dependencies but Kivy simply navigate to the directory wit
 ```bash
 pip install -r requirements.txt
 ```
+
+## Usage
+The tool is meant to be used going down the displayed buttons one at a time. If the order is followed properly a Data directory will show up containing onset files, BET's, and a FEAT analysis for each subject.
 
 ## Contribution
 This project was done for RUBIC by Michael Kochera.
