@@ -221,14 +221,6 @@ def edit_run_fsf(fsfin, boldList, bet, onset):
     count = 0
 
     for fsf_path in list_fsf:
-        direct = os.path.dirname(fsf_path)
-        bak_list = [x for x in os.listdir(direct) if x.endswith('.bak')]
-        full_paths_bak = []
-        for i in bak_list:
-            path = os.path.join(direct, i)
-            full_paths_bak.append(path)
-        for j in full_paths_bak:
-            subprocess.call(['rm', j])
         file= fileinput.input(fsf_path, inplace=True)
         for line in file:
             if("set fmri(outputdir)" in line):
@@ -283,9 +275,19 @@ def edit_run_fsf(fsfin, boldList, bet, onset):
         file.close()
         count +=1
 
+        direct = os.path.dirname(fsf_path)
+        bak_list = [x for x in os.listdir(direct) if x.endswith('.bak')]
+        full_paths_bak = []
+        for i in bak_list:
+            path = os.path.join(direct, i)
+            full_paths_bak.append(path)
+        for j in full_paths_bak:
+            subprocess.call(['rm', j])
+
     for fsf_path in list_fsf:
-        path = os.path.abspath(fsf_path)
-        subprocess.call(['feat', path])
+        if fsf_path.endswith(('.bak')) == False:
+            path = os.path.abspath(fsf_path)
+            subprocess.call(['feat', path])
 
 
 def output_final():
