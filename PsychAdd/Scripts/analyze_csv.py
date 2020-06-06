@@ -136,7 +136,6 @@ def get_all_CSV(file_path):
     return full_paths_csv
 
 def get_paths_BIDS(file_path):
-
     path_list = []
     path_split = splitall(file_path)
     file_name = path_split[len(path_split)-1]
@@ -152,7 +151,7 @@ def get_paths_BIDS(file_path):
     file_name_list.remove(file_name_list[0])
     base_path = os.path.join(*path_split)
 
-    sub_count = len([name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))])-1
+    sub_count = len([name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name)) and name != "derivatives"])
     for i in range(1,sub_count+1):
         if i < 10:
             sub_list.append(file_name_repeat+ "-0"+str(i))
@@ -285,9 +284,8 @@ def edit_run_fsf(fsfin, boldList, bet, onset):
             subprocess.call(['rm', j])
 
     for fsf_path in list_fsf:
-        if fsf_path.endswith(('.bak')) == False:
-            path = os.path.abspath(fsf_path)
-            subprocess.call(['feat', path])
+        path = os.path.abspath(fsf_path)
+        subprocess.call(['feat', path])
 
 
 def output_final():
